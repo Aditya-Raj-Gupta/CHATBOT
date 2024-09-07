@@ -1,8 +1,5 @@
 import os
 #from langchain_community.llms import Ollama
-__import__('pysqlite3')
-import sys
-sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
 import streamlit as st
 from groq import Groq
 import random
@@ -38,8 +35,8 @@ def main():
         st.image('a.jpg')
     
 
-    st.title('RERATE CHATBOT')
-    st.write("Hello!, I am your friendly chatbot. Please ask any questions.")
+    st.title('RERATE BOT')
+    st.write("Hello!, I am your friendly bot. Please ask any questions related to Rerate.")
 
     st.sidebar.title('Customization')
     model = st.sidebar.selectbox(
@@ -52,7 +49,7 @@ def main():
     user_question = st.text_input("Ask a Question..")
 
             
-    loader = TextLoader('./constitution.txt')
+    loader = TextLoader('./constitution.txt', encoding = 'UTF-8')
     
     documents = loader.load()
 
