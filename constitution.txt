@@ -6,27 +6,29 @@ the premium amount over certain years to overcome these losses. In 2008, rerate 
 policies, the increase in percentage was 13% and for all the Fortis policies, the increase was 18%. After the success of 2008 rerate, 
 rerate was done in 2010 and then in 2013, 2016, 2019 and 2022.
 
-What if the rerate is denied by the policy holder?
-Here introduced the concept of Landing Spot. Only the users who are having ABI Policies (Simple and Compound) are offered Landing Spot.
- Non-ABI policy holders, if deny rerate loses some benefits decided by the company.
+What if the rerate is denied by the policyholder?
+If the rerate is denied by the policyholder, then Landing Spot option is given to the policyholder. Only the users who are having ABI 
+Policies (Simple and Compound) are offered Landing Spot.
+Non-ABI policy holders, if deny rerate loses some benefits decided by the company.
 
 PSC stands for Product State Combination.
-PSCs are the combination of products and states which are provided to us in Anne Maki Sheet for those policies which needs rerate in 
-particular anniversary month. When any new rerate and new requirements need to be added, they are provided by PSCs in Anne Maki Sheet. 
-The PSCs for those policies which have been rerated in previous years and some rerate is still pending are also included.
+PSC are the combination of products and states which are provided to us in Anne Maki Sheet for those policies which needs rerate in 
+particular anniversary month. When any new rerate and new requirements need to be added, they are provided by PSC in Anne Maki Sheet. 
+The PSC for those policies which have been rerated in previous years and some rerate is still pending are also included.
 
-Anne Maki Sheet - In this sheet, new PSCs are mentioned which needs rerate and these PSCs are added to the existing PSC's list.
-Also the second year capped PSCs and other business requirements are mentioned in this sheet.
+Anne Maki Sheet - In this sheet, new PSC are mentioned which needs rerate and these PSC are added to the existing PSC's list.
+Also the second year capped PSC and other business requirements are mentioned in this sheet.
 
 What is Landing Spot?
-Term used to describe the benefit change which will allow eligible ABI policyholders to maintain their pre-rerate premium by reducing 
+Landing Spot is a term used to describe the benefit change which will allow eligible ABI policyholders to maintain their pre-rerate premium by reducing 
 their inflation percentage. The Landing Spot percentage is determined by the actuaries and is only available to a policyholder during 
-the rerate election period.ABI Policy holders are offered landing spot, which means they have the option of accepting or denying the 
+the rerate election period. ABI Policy holders are offered landing spot, which means they have the option of accepting or denying the 
 rerate. What landing spot means is, if the policy holder denies the rerate, his offered benefits will be reduced. Suppose he accepts the
 landing spot, then, if his benefits were supposed to be increased by 5% after accepting rerate, now his benefits will be increased 
 by say 3% only.
+Landing Spot should be blank for Switch_65_Policies and DRA_BuyUp Policies.
 
-Layered Landing Spot - Term used to describe instance where policyholder previously accepted a Landing Spot as part of the 2010/2013 
+Layered Landing Spot is a term used to describe instance where policyholder previously accepted a Landing Spot as part of the 2010/2013 
 rate increase, then is offered a second Landing Spot for the 2013 rate increase. If policyholder is eligible for a 2016 Landing Spot, 
 Landing Spot inflation percentage offered will vary depending on policyholder elections for prior rerate. Lower inflation percentages 
 will be calculated for policyholders who previously accepted the 2010 Landing Spot; higher inflation percentages will be calculated for 
@@ -39,27 +41,28 @@ So after rerate, he will pay $120 every year.
 2) Staggered: Rerate is done dividing the rerate percentage in different years and the rerate percentage for every year is provided in 
 the very beginning when the rerate is done. For example, the policy holder was paying a premium of $100 and his premium is rerated by 
 50%. Now, this increase in percentage is divided in years, which means in the first year after rerate, he will pay, say 20% more of 
-the current premium, l.e. $120. In the second year, he will pay, say 20% more of the current premium, je, $140. And in the third year, 
-he will pay, say 10% more, Le, $150. And thus the policy is called as 3-year-staggered- policy.
+the current premium, that is $120. In the second year, he will pay, say 20% more of the current premium, that is $140. And in the third year, 
+he will pay, say 10% more, that is $150. And thus the policy is called as 3-year-staggered- policy.
 3) Capped: Term used for instances where a state which does not approve the rate increase fully as flled, 
-capping the rate increase percentage which can be applied in a. given year. This is also referred to as an open ended or partial 
+capping the rate increase percentage which can be applied in a given year. This is also referred to as an open ended or partial 
 approval. It is same as staggered policy. The only difference is that the rerate percentage is provided yearly. Only the rerate 
 percentage of first year is provided when the rerate is done. For example, the policy holder was paying a premium of $100 and his
- policy is rerated. Now, he was notified only about the increase in percentage for first year, say 30% and he will pay $130 in the 
- first year, then in the second year only he will be notified about the second premium, say 10% more of the current premium, l.e., 
- $140, and similarly in the third year, he will be notified the increase in percentage for third year, say 10%, l.e., $150.
+policy is rerated. Now, he was notified only about the increase in percentage for first year, say 30% and he will pay $130 in the 
+first year, then in the second year only he will be notified about the second premium, say 10% more of the current premium, that is
+$140, and similarly in the third year, he will be notified the increase in percentage for third year, say 10%, that is $150.
 4) Capped Staggered: It is combination of Capped and staggered. Every capped phase is staggered.
 
 Some of the important Reference tables are listed below:
-1) RR2010 REF PH MAILING (Includes the details of policy including PH Mailing Date)
-2) RR2010_REF_PRODUCER_MAILING (Includes Producer mailing date)
-3) RR2010 REF PRODUCTS (Includes product details like Product code & Product group)
-4) RR2010 REF PRODUCTS_EXCEPTION (For any exceptional condition related to product)
-5) RR2010_REF_LANDING_SPOT (Includes the details of landing spot, as Landing spot pct)
-6) RR2010_REF_LANDING_SPOT_EXCEPTION (Exceptional condition related to landing spot)
-7) RR2010_REF_RERATE_FACTORS (Includes rerate factor and other details)
-8) RR2010_REF_CNF_RERATE_FACTORS (For staggered policies to know the actual rerate)
-9) RR2010_REF_CAP_STAG (To get whether the policy is cap stag or not)
+1) RR2010 REF PH MAILING - Includes the details of policy including PH Mailing Date
+2) RR2010_REF_PRODUCER_MAILING - Includes Producer mailing date
+3) RR2010 REF PRODUCTS - Includes product details like Product code & Product group
+4) RR2010 REF PRODUCTS_EXCEPTION - For any exceptional condition related to product
+5) RR2010_REF_LANDING_SPOT - Includes the details of landing spot, as Landing spot pct
+6) RR2010_REF_LANDING_SPOT_EXCEPTION - Exceptional condition related to landing spot
+7) RR2010_REF_RERATE_FACTORS - Includes rerate factor and other details
+8) RR2010_REF_CNF_RERATE_FACTORS - For staggered policies to know the actual rerate
+9) RR2010_REF_CAP_STAG - To get whether the policy is cap stag or not
+
 Cap stag means the policy is staggered in every capped phase. Acronym used for instances where a state does not approve the rate
 increase fully as filed, capping the rate increase percentage that can be applied and also requires that the approved percentage be 
 implemented over multiple years similar to a staggered state. This is a hybrid of a traditional Capped and  Staggered approval.
@@ -73,16 +76,16 @@ Rerate is activated in the anniversary month only. If the policy is on claim on 
 rerated next year on the anniversary month only.
 PROCESSED_FLG is the field which indicates the status of the processing of policies. It may be NULL, P, R, For D.
 NULL represents those policies which needs to be processed at present.
-P represents those policies which have been processed.
-R represents those policies which have been processed & having the anniversary month.
-F represents those policies which needs to be processed in future years.
-D represents those policies which have no existence & are considered as deleted.
+'P' represents those policies which have been processed.
+'R' represents those policies which have been processed & having the anniversary month.
+'F' represents those policies which needs to be processed in future years.
+'D' represents those policies which have no existence & are considered as deleted.
 
 RR2010_REF_PRODUCER_MAILING - This table includes PRODUCER_MAILING_ID, PRODUCER MAILING DATE & DATA_AS_OF_DATE. PRODUCER_MAILING_DATE 
 is the expected date when the rerate is notified to the producer and is 1 month prior to the PH_MAILING_DATE.
 
 RR2010_REF_PRODUCTS - It includes the details of the product, like PRODUCT CODE, PRODUCT DESCRIPTION and PRODUCT_GROUP. PRODUCT_GROUP
- defines which group does the product belongs to.
+defines which group does the product belongs to.
 
 RR2010_REF_PRODUCTS_EXCEPTION - It includes the products which have some exceptional conditions related to product group. For example, 
 issue state Wisconsin has same products for different scenarios. In such cases, REF_PRODUCT_EXCEPTION is maintained.
@@ -92,18 +95,17 @@ RR2010_REF_LANDING_SPOT - It includes the details of landing spot including Land
 RR2010_REF_LANDING_SPOT_EXCEPTION - It includes the products which have some exceptional conditions related to landing spot. 
 It Includes APPLICATION_START_DATE and APPLICATION_STOP_DATE as well for advantage products(if provided).
 
-How mailing extract (RR2010_MAILING_EXTRACT table) is generated?
+How Mailing Extract or RR2010_MAILING_EXTRACT table is generated?
 Mailing extract is generated by executing following SSIS packages respectively:
 1) LPRO_RR2010_Data_Transfer.dtsx
 2) LPRO_2010_WorkBasicCriteria.dtsx
-3)LPRO_2010_Pre_MIHQ.dtsx
+3) LPRO_2010_Pre_MIHQ.dtsx
 4) LPRO_2010_MIHQ.dtsx
 5) LPRO_2010_Post_MIHQ.dtsx
-6)LPRO_2010_ExtractProcess.dtsx
+6) LPRO_2010_ExtractProcess.dtsx
 
-RR2010_MAILING_EXTRACT_HISTORY - This table maintains all the policies and PSCs details which have been fixed and whose POLICY_STATUS
- is 'A', I.e., Active in RR2010_MAILING_EXTRACT table.
-
+RR2010_MAILING_EXTRACT_HISTORY is a table which maintains all the policies and PSCs details which have been fixed and whose 
+POLICY_STATUS is 'A', i.e., Active in RR2010_MAILING_EXTRACT table. This table is called 'EHT' in short.
 RR2010 MAILING_EXTRACT_HISTORY_TERM - This table maintains all the policies and PSCs details which have been fixed and whose 
 POLICY_STATUS is 'A-Suspended or T, le., Active Suspended or Terminated in RR2010 MAILING EXTRACT table.
 
@@ -112,67 +114,102 @@ Dally Maximum Benefit (DMB) and Benefit Period (BP), or a combination of the two
 premium neutral (pre-rate Increase premium) as possible. PODA is offered to only those policies which are not offered landing spot and 
 which are not permanently locked. But for terminated policies, it will run even if it is permanently locked.
 PODA reduces the rerate modal premium nearly equal to current modal premium by reducing some benefits.
-PODA 1: The daily monthly benefit is reduced.
-PODA 2: The benefit period is reduced.
-PODA 3: Both the daily monthly benefit as well as benefit period is reduced.
+PODA options 1: The daily monthly benefit is reduced.
+PODA options 2: The benefit period is reduced.
+PODA options 3: Both the daily monthly benefit as well as benefit period is reduced.
 
-Rerate_Modal_Prem_Year2 is Year 2 total premium and Formatted as currency with 2 decimals.
+The PODA options 1  is captured by below columns in Mailing Extract:
+1) Rerate_Daily_Monthly_Bene
+2) Rerate_Daily_Monthly_Bene_Prem
+3) Rerate_HHC_DMB
 
-If Policy_Issue_State = 'Montana' AND Letter_Template = '2010' or
-blank AND Staggered_Year = '1' then Rerate_Modal_Prem_Year2 is populated. 
+The PODA options 2  is captured by below columns in Mailing Extract:
+1) Rerate_RLMB_for_DMB
+2) Rerate_RLMB_for_Combo
 
-If Policy_Issue State = 'Virginia' and Staggered Year = '1' or '2' then Rerate_Modal_Prem_Year2 is populated.
+The PODA options 3 is captured by below columns in Mailing Extract:
+1) Rerate_COMBO_DAILY_MONTHLY_BENE
+2) Rerate_COMBO_BENE_PERIOD
+3) Rerate_COMBO_DAILY_MONTHLY_BENE_PREM
 
-If Policy_Issue_State = 'Vermont' and Letter_Template = '2016' and 
-Product_Code = 'LTC91', 'NHO91', 'LTC94', 'NHO94', 'LTC3', 'BSC3', 'GOL96', 'GOQ96', '2000-LTC', 'LTC2', 'BSC2' or 'LTC3R' 
-then populate with Rerate_Modal_Prem_Year2 is populated in first and second year staggered implementations.
+All PODA options should be Blank if accumulated payments is > '$0'. 
+All PODA options should be Blank for these inflation types: CPI Compound, CPI Compound to Age 75
+and Automatic Inflation-CPI. 
+All PODA options should be Blank for those offered Landing Spot or landing spot is an option.
+All PODA options should be Blank for 1st Staggered SharedCost Policies.
+All PODA OPTIONS should be Blank for LP POLICIES.
 
-If Policy Issue State 'Vermont' and Letter_Template = '2016' 
-and Product Code = '4062-INT', '4063-INT', '6062-INT', '6063-INT',' 7062/7063', 
-then populate with Rerate_Modal_Prem_Year2 is populated in first and second year staggered implementations. 
+PODA  options 3 should be Blank for policies where current DMB is equal to PODA option 3 DMB.
+If PODA options 1 or PODA options 2 is blank, PODA  options 3 fields should be blank.
+PODA options 1 and PODA  options 3 should be Blank when NXT_POL_ANN_DAILY_MONTHLY_BENE  = RERATE_DAILY_MONTHLY_BENE.
+PODA options 1 and PODA  options 3 should be Blank when for partnership policies, the RERATE_DAILY_MONTHLY_BENE is
+less than State Min DMB.
+For Shared Care Rider policies, PODA options 2 and PODA  options 3 should populate as BLANK.
+Poda Options 3 should be blank where current DMB is equal to PODA option 3 DMB.
+PODA options 2 and PODA  options 3 should be populated blank for dual pool policies.
+PODA options 2 and PODA  options 3 should be populated blank for "Family Care" Active status policies with product groups in 
+CCII&ECII, CCII07, CCIIE and CCII10.
 
-If Policy Issue State = 'California' and Letter_Template = '2019' and Product_Code 'LTC2' or 'CA06' 
-then populate with Rerate_Modal_Prem_Year2 is populated in first and second year staggered implementations. 
+Policies having Policy_Issue_State = 'South Dakota' and Product_Code = 'LTC6' and Monthly Benefit Mode shouldn't have
+PODA DMB less than <$3000. Policies having Policy_Issue_State = 'South Dakota' and Product_Code = 'LTC6' and Daily Benefit Mode 
+shouldn't have PODA DMB less than <$100.
 
-If Policy Issue State 'California' and Letter_Template = '2016' 
-and Product_Code 'LTCQ', 'GOL96', 'GOQ96', 'SCQ96', 'SCN96', 'GON96', 'GOT96', 'GNF96' or 'GOF96' 
-then populate with Rerate_Modal_Prem_Year2 is populated in first and second year staggered implementations.
 
-If Policy Issue State = 'California and Letter Template = '2016' 
-and Product_Code LICQ, GOLY6, GOQ90, SUQ96, SCN96, GONY6, 'GOT96', 'GNF96' or 'GOF96' 
-then populate with Rerate_Modal_Prem_Year2 is populated in first and second year staggered implementations.
+John Hancock introduced Shared Cost option in 2016 Rerate. Election of the Shared Cost Landing Spot will allow the policyholder’s 
+premium to remain at the pre-rerate premium amount. PODA DMB and Shared Cost DMB reduction options cannot drop below the state 
+mandated minimum benefit requirements. Pricing is calculating the Shared Cost factors using 2017 policyholder year end data.  
+A default rate of “99” will be used for any benefit combination where pricing did not have data to calculate a Shared Cost percentage.   
+No Shared Cost Landing Spot will be offered to a policyholder if the shared cost factor provided on the pricing rate sheet is “99” for
+the policyholder’s current benefits. If a PODA DMB reduction option is not achieved for a policy, the Shared Cost Landing Spot will be 
+calculated using the factor provided by pricing, unless the factor is “99”.  
+The Shared Cost override field will be populated upon election for all policyholders to allow the user to view the Claim Mulitplier 
+being applied to the policy. The policyholder’s Shared Cost factor will remain frozen upon election and should not be recalculated
+in the event of a future benefit change with the exception of a future rerate Shared Cost Landing Spot election. 
+Upon election of the Shared Cost Landing Spot, the policyholder’s DMB will be rounded to the nearest cent for all policyholders. 
+Existing LifePRO DMB rounding rules will be used for policyholder’s who do not elect the Shared Cost Landing Spot.  
+(Nearest dollar for retail and nearest cent for Fortis policyholders). 
+The Shared Cost factor provided by pricing represents John Hancock’s portion.  For example, a factor of .881 represents an 11.9% 
+Policyholder Shared Cost Percentage and an 88.1% JH Shared Cost Percentage.  
+Future PODA DMB reduction options should be rounded to the nearest cent for all policyholders who previously elected the Shared Cost 
+Landing Spot. For Dual pools having facility(NH) and non-facility(HHC) benefits, PODA options would be restricted to DMB reduction. 
+For policies with CPI COMPOUND inflation, shared cost and PODA DMB reduction calculation has not been finalized. Shared cost landing 
+spot option will not be offered for classic products. 
+The columns that captures the Shared Cost Option in Mailing Extract tables are:
+1) SHARED_COST_PRICING_FACTOR
+2) SHARED_COST_80_PCT_DMB_FACTOR
+3) FINAL_SHARED_COST_FACTOR
+4) SHARED_COST_DMB         
+5) SHARED_COST_PH_PCT           
+6) SHARED_COST_JH_PCT            
+7) SHARED_COST_HHC_DMB      
+8) CUMULATIVE_SHARED_COST_FACTOR
+9) CUMULATIVE_SHARED_COST_PH_PCT 
+10) CUMULATIVE_SHARED_COST_JH_PCT 
+11) Rerate_Shared_Cost_RLMB
 
-If Policy_Issue_State = 'California' and Letter_Template = '2016' 
-and Product_Code = 'LTC91', 'NHO91' or 'LTC94' and inflation is not a None/No Inflation/GPO/CPI 
-then populate with Rerate_Modal_Prem_Year2 is populated in first and second year staggered implementations. 
+Shared Cost Fields should be blank for DRA_BuyUp Policies.
+The Shared Cost should be blank for Limited Pay policies for 2019RR implementations.
+All PODA Options & Shared Cost fields should be populated as blank for Non Active policies.
+SHARED_COST_80_PCT_DMB_FACTOR should be null WHEN RERATE_DAILY_MONTHLY_BENE IS BLANK.
+Shared Cost fields should populate Blank for inflation_types: CPI COMPOUND, CPI COMPOUND TO AGE 7, AUTOMATIC INFLATION-CPI.
 
-If Policy_Issue_State = 'California' and Letter Template = '2016' 
-and Product Code = 'LTC91', 'NHO91' or 'LTC94' and inflation is None/No Inflation/GPO/CPI and Benefit Period is 'Lifetime' 
-then populate with Rerate_Modal_Prem_Year2 is populated in first and second year staggered implementations. 
+Below are the RLMB fields in Mailing Extract:
+1) NEXT_ANNIVERSARY_RLMB
+2) RERATE_RLMB_FOR_DMB
+3) RERATE_RLMB_FOR_BP
+4) RERATE_RLMB_FOR_COMBO
+5) RERATE_SHARED_COST_RLMB
 
-If Policy_Issue_State = 'California' and Letter_Template = '2016' 
-and Product_Code = '4060-NHM', '4062-INT", '4063-INT', '4072-INT', '4073- INT', '6062-INT', '6063-INT', '6072-INT' or '6073-INT"
-then populate with Rerate_Modal_Prem_Year2 is populated in first and second year staggered implementations. 
+All RLMB fields should not be blank when respective PODA fields and Shared Cost DMB field is not blank.
+ALL RLMB FIELDS should be BLANK FOR POLICIES WITH 91-94 plan codes and inflations like Simple/Compound.
+Daily Monthly Benefit and Shared Cost RLMB fields should be populated as 'unlimited' when current benefit period is Lifetime.
+Next_Anniversary_RLMB should be populated blank for policies with inflations – SIMPLE, COMPOUND, SIMPLE NOT INFLATING and 
+COMP NOT INFLATING.
+NEXT_ANNIVERSARY_RLMB should be populated blank for policies WHERE claim_status IS RECOVERED or RECOVERED ROB.
+NEXT_ANNIVERSARY_RLMB should be populated blank for policies WHERE claim_status IS On Claim AND benefits_paid > 0.
+NEXT_ANNIVERSARY_RLMB should be populated blank WHERE SHAREDCARE_LMB IS POPULATING.
 
-Next Anniversary_RLMB - currency with 2 decimals if applicable. Exclude decimals if .00. 
-Next Anniversary_RLMB is the Remaining Lifetime Benefit amount as of the next policy anniversary and will be illustrated for policies whose sub_letter_template is populated with 'SC' or 'SC2016' or 'SC2019'
-whenever possible.
-Next Anniversary_RLMB should be populated with non-numerical value of 'Unlimited' for policies with benefit period as 'Lifetime'.
-For policies with shared care benefit amount that has been transferred out(sent out) for active transfers should have Next Anniversary_RLMB populated.
-The policyholder's current RLMB will be used for policies with CPI COMP (ADD GIO) inflation as the CPI factor to project the RLMB at next anniversary is not available when the extract is created. 
-For policies with both 'Nursing Home' and 'Home Health Care' pools of benefits, the 'Nursing Home' pool amount for RLMB should be illustrated.I
-For policies with 91-94 plan codes (LTC91, LTC94, LNY91 and LNY94 product codes), Next Anniversary_RLMB will be populated with spaces for policies with inflations - SIMPLE, COMPOUND, SIMPLE NOT INFLATING and COMP NOT INFLATING.
-Next Anniversary_RLMB will be populated with spaces if 'Nursing Home' pool amount for RLMB is zero or negative.
-For policies with shared care benefit amount that has been transferred in(received) as part of deceased transfer or active transfer will have Next Anniversary_RLMB populated with spaces.
-For policies in 'Recovered' or 'Recovered ROB' claim status, Next Anniversary_RLMB should be populated with spaces.
-For policies in 'On Claim' claim status, Next Anniversary_RLMB should be populated with spaces if Benefits_Paid has a non-zero dollar amount.
 
-Rerate_RLMB_for_DMB - Formatted as currency with 2 decimals if applicable. Exclude decimals if .00. 
-Rerate_RLMB_for_DMB is GPO Personalized Option Remaining Lifetime Benefit Amount for daily/monthly benefit amount reduction and will be illustrated for policies whose sub_letter_template is populated with 'SC' or 'SC2016' or 'SC2019' whenever possible.
-Rerate_RLMB_for_DMB should be populated with spaces if PODA does not return a decrease in Daily/Monthly benefit option.
-Rerate_RLMB_for_DMB should be populated with spaces if Next_Anniversary_RLMB is populated with spaces.
-Rerate_RLMB_for_DMB should be populated with non-numerical value of 'Unlimited' for policies with benefit period as 'Lifetime'
-For policies with both 'Nursing Home' and 'Home Health Care' pools of benefits, the 'Nursing Home' pool amount for RLMB should be illustrated in Rerate_RLMB_for_DMB.
 
 2022 Rate Increase Details:
 In 2022, John Hancock completed another comprehensive claims study for long-term care insurance, which we generally conduct every three 
@@ -188,9 +225,562 @@ The 2022RR Inflation Landing Spot will not be available to policyholders with th
 3) BEN BUILDER (BUY UP)?
 4) AUTOMATIC CPI
 5) CPI COMPOUND CORPSOL
-The Inflation Landing Spot will not be offered to Limited Pay policies for 2022RR implementations as in 2019RR.
+Landing Spot is populated with blank for Limited Pay policies for 2022RR implementations as in 2019RR.
 
-SHARED COST PRICING FACTOR is Populated with 1 minus Shared Cost Factor provided in the 2022 rerate approval pricing rate sheet. 
+Brand_Name is populated with the following values: JHUSA, JHLH, ARIC, Fortis Time, Fortis Union and Fortis Union NY.
+
+Claims_Status is populated with the values below:
+1) On Claim – used for policyholder’s who meet the rerate on claim criteria as of their rerate effective date.
+2) Not on Claim – used for policyholder’s who do not meet the rerate on claim criteria on their rerate effective date and NH and HHC 
+accumulated claims paid = 0.
+3) Recovered – used for recovered claimants eligible for rerate - and whose NH or HHC accumulated claims paid is > 0 and the policy 
+does not have the restoration of benefit either built in or as an optional rider.   (see attachments for products with ROB built in)
+4) Recovered ROB – used for recovered claimants eligible for rerate and whose NH or HHC accumulated claims paid is > 0 and the policy 
+includes the restoration of benefit either built in or as an optional rider.
+5) SWOP – used for policyholder’s on WOP due to SWOP rider benefit.
+claim_Status cannot be Not on claim when benefits_paid > 0.
+
+Partnership is populated with LifePRO partnership field.
+The valid Values for partnership field are as follows:
+1) DRA = if LifePRO partnership field equals Y.
+2) T = for Traditional Partnership Products (CT, IN, NY & CA).
+3) N = partnership approved state & product, however policy does not qualify.
+4) N/A = partnership is not applicable.
+
+Producer Mailing is populated with either 'Y' or 'N' or firm-type indicator. Producer letters should not be mailed to any 
+JHFN or USAA producer. ARIC Private Label policies should also be excluded from the producer mailing. 
+'USAA' shall be identified by Agency Code or Producer Number.
+If Agency Code is equal to 325, Producer Mailing is populated with ‘USAA’
+If  Producer Number is equal to 000003, 001001, 001002, 001003, 001004, 001005, 001006, 001007, 001008, 001009, 001010, 001227, 
+001319, 001581, 001582, 001609, 001756, 001822, 007924, 009969, 012787, 022998, 023252, 025236, 025622, 025634, 027102, 027103, 
+027104, 027484, 028261, 028271, 028273, 036513, 039607, 041011, 128678, 131763, 135695, 140328, 628154, 628160, 629716, 631445, 
+634029, 634154, 637722, 639028, 645468, 651829, 652730, 658393, 658624, Producer Mailing is populated with ‘USAA’
+'JHFN' will be identified by the agency code and producer level.
+If Agency Code appears on the JHFN Agency Table and producer level is not equal to 09, 
+or the producer number not equal to any of the USAA producer numbers listed above, Producer Mailing is populated with ‘JHFN’.
+ARIC Private Label policies shall be identified by Product Code.  If Product Code is equal to ARG96, ARF96, AWF96 OR AWJ96 Producer 
+Mailing is populated with ‘N’ . 
+If Producer Number equals ‘000001’, Producer Mailing is populated with ‘N’
+If there isn’t an active agent in the hierarchy for a policy, Producer Mailing is populated with ‘N’
+If agent is on the Blue Dot Restricted Agent List, Producer Mailing is populated with ‘N’
+If the above conditions are not met then Producer Mailing is populated with ‘Y’.
+
+Policyholder_Age_Nxt_Pol_Ann is the policyholder age as of the rerate effective date/next policy anniversary date.
+
+Policyholder_DOB is the policyholders date of birth.
+
+Capped is populated with either the percentage of the full filed increase, ‘Uncapped’ or ‘N/A’ based upon the filed and implemented 
+rates sheets provided by actuary.
+If the policyholder’s rate increase is capped, we determine the full rate increase percent based upon the filed rates considering the 
+weighted average for GPO. Then Capped is populated with the total filed increase percent (i.e. 90.25%).  Formatted as a percent with 2 
+decimals. If the value is a whole percent, suppress the two decimals.
+If the state, product and inflation option includes capped rates, but the policyholder is not subject to a cap,  Capped is populated with 
+‘Uncapped’.
+If the state, product and inflation option does not have any capped values, Capped is populated with ‘N/A’. 
+If Actuary does not provide a filed rate sheet containing the total filed rate increase percentages, it will be assumed no caps exists 
+for this state, product and inflation option and Capped is populated with N/A.
+If the policy is Cap_Stag and STAGGERED_YEAR >1 and the LETTER_TEMPLATE on the policyholder’s previous extract record on the EHT = 
+‘2013’, Capped is populated with the CAPPED value from the policyholder’s previous extract record on the EHT.
+For the New Hampshire rate increase implementation, if the policyholder is impacted by an attained age cap, the filed rate increase 
+percentage should be derived using the rate sheet provided by actuary without applying the attained age cap factors.
+If the policy is Cap_Stag and the Policy_Issue_State is not ‘Connecticut’ and Letter_Template is not ‘2016’ and the Filed rate increase
+percentage is less than the Implemented rate increase percentage, Capped is populated with ‘Uncapped’
+If the policy is Cap_Stag and the Policy Issue State = ‘Connecticut’ and Letter_Template = ‘2016’, Capped is populated with 
+Filed rate increase percent even if the Filed rate increase percent is less than the Implemented rate increase percent.
+If Policy Issue State = ‘Iowa’ or ‘New Jersey’ and Letter Template = ‘2016’ and the Filed rate increase percent does not equal the 
+implemented rate increase percent, Capped is populated with the Filed rate increase percent even if the File rate is less 
+than the implemented rate. The policy should be treated as a capped policy.
+If Policy Issue State = ‘North Dakota’ and Product Code = ‘LTC2’ or ‘BSC2’ and Letter Template = ‘2016’ and Rerate_Inc_Pct exceeds the
+Filed_Rate Inc_Pct, Capped is populated with Filed_Rate_Inc_Pct if the Implemented Staggered Year 3 rate factor is 1.2 on any benefit 
+sequence else Capped is populated with ‘Uncapped’.
+If the Policy_Issue_State = ‘Connecticut’ and Product_Code = ‘LTC3E’ or ‘L3PER’ and it’s a 2019 rerate supplemental implementation 
+(Letter_Template = ‘2019’ and Round_wave like ‘R70%’) and the Filed rate increase percentage is less than the Implemented rate increase
+percentage, Capped is populated with ‘Uncapped’.
+
+Max_ReRate_Inc_Pct represents the maximum rate increase percent filed for the state/product combination based upon the actuarial rate 
+sheets. This field will be used to validate the ReRate_Inc_Pct field.
+For staggered states this value must be calculated by finding the maximum rate from each year’s rate sheet for the state/product 
+combination and multiplying them together.  For example, first year max is 40%, second year max is 39.32%, the overall max is 
+1.40x1.3932-1 = 95.04%.
+For New Hampshire issued policies, ax_ReRate_Inc_Pct must be set to the policyholder’s attained age cap percentage. 
+
+Filed_Rerate_Inc_Pct represents the filed rate increase percent and should be populated if the state/product/inflation option contains 
+capped rates. If the policy is Cap_Stag and STAGGERED_YEAR>1 and the LETTER_TEMPLATE on the policyholder’s previous extract record on 
+the EHT = ‘2013’, Filed_Rerate_Inc_Pct is populated with the FILED_RERATE_INC_PCT value from the policyholder’s previous extract record 
+on the EHT. For the New Hampshire rate increase implementation, the filed rate increase percentage should be derived using the rate 
+sheet provided by actuary without applying the attained age cap factors. 
+
+Staggered Year represents the staggered year’s increase in effect. It should be populated with the applicable phase being implemented 
+and not consecutive years.  Example:  If the full rate increase is being implemented in Year 1 then value = blank. If staggered in 
+Year 1 then value = 1.  If Year 2 is final staggering then value = 2.  If the rate increase is being implemented every 3 years, 
+Year 1 = 1, and the increase being implemented 3 years later should have a value of 2 not 4 
+(the actual phase of the staggered implementation).
+If the policyholder’s 2013 rate increase is staggered and the Stag_2010_Remaining field value = ‘N’ then reset the Staggered_Year 
+value to ‘1’
+If the policyholder’s 2013 rate increase is staggered and the Stag_2010_Remaining field value = ‘Y’ or ‘<blank>’ then set the 
+Staggered_Year value to the next sequential number based on the policyholder’s previous rate increase record stored on the EHT.
+Recovered Claimants should be handled in the same fashion.
+If Policy_Issue_State = ‘Iowa’ and Letter_Template = ‘2013’ and the Remaining_% field value on the policyholder’s previous extract 
+record is > 0% then set the Staggered_Year value to the next sequential number.
+
+Current_Bene_Period_Amt is the GPO personalized option Current Benefit Period in dollars (not reduced by claims paid). 
+Formatted as currency with 2 decimals.  Exclude decimals if .00.
+Current_Bene_Period_Amt must be populated for policies where benefits paid is greater than 0.
+If Curr_Bene_Period equals ‘Lifetime’, then Current_Bene_Period_Amt is populated with value as ‘Lifetime’.
+
+Benefits Paid is the Total Claims paid.  Formatted as currency with 2 decimals.  Exclude decimals if .00.
+It is populated with $0 if blank.
+
+Remaining_Bene_Period_Amt is the Benefit Period in dollars minus total claims paid (remaining pool of money).  Formatted as currency 
+with 2 decimals. Remaining_Bene_Period_Amt must be populated for policies where benefits paid is greater than 0.
+If Curr_Bene_Period equals ‘Lifetime’, then Remaining_Bene_Period_Amt is populated with value as ‘Lifetime’.
+
+Rerate_Bene_Period_Amt is the Benefit Period Personalized Option in dollars (not reduced by claims paid), if applicable.  
+Formatted as currency with 2 decimals.  Exclude decimals if .00.
+Rerate_Bene_Period_Amt must be populated for policies where benefits paid is greater than 0 and PODA Benefit Period reduction is an 
+option.
+
+Rerate_Bene_Period_Remaining is the Benefit Period Personalized Option in dollars minus claims paid, if applicable. 
+Formatted as currency with 2 decimals.  Exclude decimals if .00.
+Rerate_Bene_Period_Remaining must be populated for policies where benefits paid is greater than 0 and PODA Benefit Period reduction is 
+an option.
+
+Rerate_Daily_Monthly_Bene_Amt is the Daily/Monthly Benefit Personalized Option benefit period in dollars (not reduced by claims paid),
+if applicable.  Formatted as currency with 2 decimals.  Exclude decimals if .00.
+Rerate_Daily_Monthly_Bene_Amt must be populated for policies where benefits paid is greater than 0 and PODA Daily/Monthly Benefit 
+reduction is an option.
+If Curr_Bene_Period equals ‘Lifetime’, Rerate_Daily_Monthly_Bene_Amt is populated with value as ‘Lifetime’.
+
+Rerate_Daily_Monthly_Bene_Remaining iss the Daily/Monthly Benefit Personalized Option benefit period in dollars minus claims paid, 
+if applicable.  Formatted as currency with 2 decimals.  Exclude decimals if .00.
+Rerate_Daily_Monthly_Bene_Remaining must be populated for policies where benefits paid is greater than 0 and PODA Daily/Monthly 
+Benefit reduction is an option.
+If Curr_Bene_Period equals ‘Lifetime’, then Rerate_Daily_Monthly_Bene_Remaining is populated with value as ‘Lifetime’.
+
+Rerate_Combo_Daily_Monthly_Bene is the Combo Personalized Option Daily/Monthly Benefit, if applicable.  
+Rerate_Combo_Daily_Monthly_Bene should be blank if PODA does not return a decrease in both the Daily/Monthly benefit and Benefit 
+Period option.For family care policies in Product groups CCII&ECII, CCII07, CCIIE and CCII10, 
+Rerate_Combo_Daily_Monthly_Bene is populated with blanks if Rerate_Combo_Bene_Period is populated with blanks.
+
+Rerate_Combo_Bene_Period is the Combo Personalized Option Benefit Period, if applicable  Formatted as a sentence, i.e. 5 years.
+For family care policies in Product groups CCII&ECII, CCII07, CCIIE and CCII10, if Rerate_Combo_Bene_Period is populated with ‘2years’ 
+or ‘3 years’ returned from PODA, it should be populated with blanks.
+
+Rerate_Combo_Bene_Period_Amt is the Combo Personalized Option Benefit Period in dollars (not reduced by claims paid).  
+Formatted as currency with 2 decimals.  Exclude decimals if .00.
+Rerate_Combo_Bene_Period_Amt must be populated for policies where benefits paid is greater than 0 and PODA Combo reduction is an 
+option.
+
+Rerate_Combo_Bene_Period_Remaining is the Combo Personalized Option Benefit period in dollars minus claims paid, if applicable.  
+Formatted as currency with 2 decimals.
+Rerate_Combo_Bene_Period_Remaining must be populated for policies where benefits paid is greater than 0 and PODA Combo reduction 
+is an option.
+
+Rerate_Combo_Daily_Monthly_Bene_Prem is the Combo Personsonalized Option premium amount, if applicable.  Formatted as currency with 2 
+decimals.  Excluded decimals if .00. Rerate_Combo_Daily_Monthly_Bene_Prem should be blank if PODA does not return a decrease in both 
+the Daily/Monthly benefit and Benefit Period option.
+For family care policies in Product groups CCII&ECII, CCII07, CCIIE and CCII10, Rerate_Combo_Daily_Monthly_Bene_Prem is populated with 
+blanks if Rerate_Combo_Bene_Period is populated with blanks.
+
+CNFO_Age is the age that was used to determine CNFO eligibility.
+
+Remaining_LMB is the remaining pool of money on the policy.
+
+Rate_Stabilization can be populated with either ‘Pre’, Post’ or blank.
+
+HHC Current BP is the policyholder’s current Home Health Care Benefit Period as of their next anniversary date. 
+
+HHC_Current_DMB is the policyholder’s current Home Health Care Daily/Monthly Benefit period as of their next anniversary date. 
+
+Inflation_Cap have valid values Y/N or blank. It must be populated for the 91/94 plans with inflation caps.
+
+Minimum_BP have valid values Y/N or blank. It must be populated for the 91/94 plans. Set to ‘Y’ if the policyholder is at the minimum 
+NH and HHC BP level else ‘N’. Minimum_BP should be blank for non 91/94 plans. 
+
+
+Curr_Modal_Prem is the policyholder's current modal premium amount and is formatted as currency with 2 decimals (rounded).
+
+Rerate_Modal_Prem is the total premium amount after the full rate increase is implemented. It is formatted as currency with 2 decimals 
+(rounded). For a staggered implementation, Rerate_Modal_Prem should be populated with the ultimate/final premium amount.
+
+Rerate_Modal Prem_Increase is the total rate increase amount after the full amount is implemented and is formatted as currency with 
+2 decimals (rounded). For a staggered implementation, Rerate_Modal Prem_Increase should be populated with the ultimate/final premium 
+increase amount. It is calculated as (Rerate_Modal_Prem- Curr_Modal_Prem).
+
+Rerate_Inc_Pct is formatted as percent with 2 decimals except when percent is a whole number in which case the decimal should be 
+excluded. (ie. 23.00% should display as 23%). This is the total rerate percent of increase. 
+It is calculated as ((Rerate_Modal_Prem-Curr_Modal_Prem)/Curr_Modal_Prem)).
+If the calculated rate increase percent exceeds the maximum increase portrayed on the actuarial rate sheet for the state/product
+combination, the maximum percent should be displayed instead of the calculated percent. 
+
+The Max Rerate_Inc_Pct will store the maximum value. If the state/product/inflation option includes a cap, the capped value should be 
+considered as the maximum percent.
+For the 2013 & 2016 New Hampshire rate increase implementation, the rerate increase percent cannot exceed the maximum increase 
+based on the policyholder's attained age on their rerate effective date. We have to refer the business requirement documnent for more 
+details.
+
+Balling Mode is the policyholder's billing frequency and is populated in lower case.
+
+Nxt_Policy_Anniv_Date is in date format. It is the policy's anniversary date.
+
+Daily_Monthly_Bene_Mode can have values Daily Benefit or Monthly Benefit.
+
+Nxt Pol_Ann_Daily_Monthly Bene is populated as currency with 2-decimals if applicable.
+It is the Daily/Monthly Benefit amount as of the next policy anniversary. The policyholder's current DMB will be used for policies 
+with CPI-COMP (ADD-GIO) inflation as the CPI factor to project the DMB at next anniversary is not available when the extract is created.
+
+Curr_Bene_Period is populated in a sentence format i.e. '5 years' or 'Lifetime'.
+
+Curr Elim_Period is populated in a sentence format i.e. '90 days'.
+
+Curr_Inflation_Mode is populated as below:
+Family Care policies only offer None, Simple and Compound inflation types.
+If LifePRO's inflation mode = NONE (ADD-GPO) and family care rider exists on the policy then Curr_Inflation_Mode = None.
+If LifePRO's inflation mode is COMPOUND(ADD-GPO) or 5% COMPOUND-ADD-GPO and family care rider exists on the policy then 
+Curr_Inflation_Mode is 5% Compound.
+If Product_Code = 'LTC2' and LifePRO's inflation mode is NONE (ADD GPO) and Spousal Survivorship & Waiver of Premium rider exists, 
+then Curr_Inflation_Mode is None.
+If Product_Code='LTC3E', LT3FE', 'LT3PE', 'L3ER', 'L3FER' or 'L3PER' and the LifePRO's inflation mode = "NONE (ADD-GPO)" and 
+one of the following riders has been elected, then set the Curr_Inflation_Mode to "NONE" else "GPO".
+If Company_Code is '06' and Policy Issue State is Wisconsin and Product Code is 'GOQ96', GOF96' or 'GOL,96' and current inflation type 
+is like Comp, then set Curr_Inflation_Mode to 'GPO with <inflation rate>% Compound'.
+If Company_Code is '06' and Policy_Issue_State is 'Wisconsin' and Product_Code is in 'GOQ96, GOF96' or 'GOL96' and 
+current inflation type is like Comp, then set Curr_Inflation_Mode to inflation-rate>% Compound. If Company_Code is '06' and 
+Policy_Issue_State is 'Delaware' and Product_Code is 'GOQ96' or 'GOF96' and current inflation type is like Comp
+then Curr_Inflation_Mode is 'GPO with <inflation rate>% Compound'.
+If Company_Code ='06' and Policy_Issue_State = 'Delaware and Product_Code 'GOQ96' or 'GOF96' and current inflation type is like Comp 
+then Curr_Inflation_Mode is '<inflation rate>% Compound'.
+For Leading Edge product codes LTC6, LTC6R, LTCF6 and LTF6R, if the policyholder's current inflation mode = "NONE (ADD-GPO)? and one 
+of the following riders (20-Year-Payment,Paid_Up-at-75) is active on the policy, then Curr_Inflation_Mode is 'NONE'. It is else 'GPO'.
+For CCIII product codes B10, B10F, C10 and C10F, if the policyholder's current inflation mode='NONE (ADD-GPO)? and one of the following 
+riders (20-Year Payment, Paid-Up-at-75,Survivorship Waiver) is active on the policy, then display the inflation mode as 'NONE'. It is else 
+populated 'GPO'.
+
+Curr_Opt Riders is formatted as text listed out & separated by commas and a space as it should read in the notification letter. 
+This should include all-optional riders elected by the policyholder. If there aren't any optional riders, display None.
+For more details, please refer business requirement document.
+
+Bene Calc_Date is the 'as of date' the date the data was captured for extract purposes.
+
+Accelerated_Pay_Opt is defined as policies with the 10 year payment option or Paid-Up status at 65 who have not yet reached a paid-up 
+status as of the next policy anniversary date. The valid Values are 10-Year Payment, Pad-Up At-65, 20 Year Payment, Paid-Up-at-75 or 
+N/A.
+
+Rerate Inflation_Mode reflects the appropriate landing spot percentage based on the policyholder's 2010 rate increase election as 
+indicated in the state approval release memo. It should be blank for year 2+ staggered records.
+
+
+Rerate_Modal_Prem_Increase_Year1 is year 1 increase dollar amount and formatted as currency with 2 decimals.
+If Staggered_Year = '1' then it is populated with the rate increase amount for the year 1 increase, else kept blank.
+
+Rerate_Modal_Prem_Year1 is year 1 total premium and formatted as currency with 2 decimals.
+If Staggered_Year = '1' then it is populated with year 1 rerated premium amount, else kept blank.
+
+Rerate_Modal_Prem_Year2 is Year 2 total premium and Formatted as currency with 2 decimals. If LETTER_TEMPLATE = '2019', then 
+Rerate_Modal_Prem_Year2 is populated only for the policy which belongs to FORTIS UNION product group, except for policies 
+where Policy_Issue_State = 'California'. If LETTER_TEMPLATE = '2022',, then Rerate_Modal_Prem_Year2 is populated for all policies.
+
+If Policy_Issue_State = 'Montana' AND Letter_Template = '2010' or
+blank AND Staggered_Year = '1' then Rerate_Modal_Prem_Year2 is populated. 
+
+If Policy_Issue State = 'Virginia' and Staggered Year = '1' or '2' then Rerate_Modal_Prem_Year2 is populated.
+
+If Policy_Issue_State = 'Vermont' and Letter_Template = '2016' and 
+Product_Code = 'LTC91', 'NHO91', 'LTC94', 'NHO94', 'LTC3', 'BSC3', 'GOL96', 'GOQ96', '2000-LTC', 'LTC2', 'BSC2' or 'LTC3R' 
+then Rerate_Modal_Prem_Year2 is populated in first and second year staggered implementations.
+
+If Policy Issue State 'Vermont' and Letter_Template = '2016' 
+and Product Code = '4062-INT', '4063-INT', '6062-INT', '6063-INT',' 7062/7063', 
+then Rerate_Modal_Prem_Year2 is populated in first and second year staggered implementations. 
+
+If Policy Issue State = 'California' and Letter_Template = '2019' and Product_Code 'LTC2' or 'CA06' 
+then Rerate_Modal_Prem_Year2 is populated in first and second year staggered implementations. 
+
+If Policy Issue State 'California' and Letter_Template = '2016' 
+and Product_Code 'LTCQ', 'GOL96', 'GOQ96', 'SCQ96', 'SCN96', 'GON96', 'GOT96', 'GNF96' or 'GOF96' 
+then Rerate_Modal_Prem_Year2 is populated in first and second year staggered implementations.
+
+If Policy Issue State = 'California and Letter Template = '2016' 
+and Product_Code LICQ, GOLY6, GOQ90, SUQ96, SCN96, GONY6, 'GOT96', 'GNF96' or 'GOF96' 
+then Rerate_Modal_Prem_Year2 is populated in first and second year staggered implementations.
+
+If Policy_Issue_State = 'California' and Letter_Template = '2016' 
+and Product_Code = 'LTC91', 'NHO91' or 'LTC94' and inflation is not a None/No Inflation/GPO/CPI 
+then Rerate_Modal_Prem_Year2 is populated in first and second year staggered implementations. 
+
+If Policy_Issue_State = 'California' and Letter Template = '2016' 
+and Product Code = 'LTC91', 'NHO91' or 'LTC94' and inflation is None/No Inflation/GPO/CPI and Benefit Period is 'Lifetime' 
+then Rerate_Modal_Prem_Year2 is populated in first and second year staggered implementations. 
+
+If Policy_Issue_State = 'California' and Letter_Template = '2016' 
+and Product_Code = '4060-NHM', '4062-INT", '4063-INT', '4072-INT', '4073- INT', '6062-INT', '6063-INT', '6072-INT' or '6073-INT"
+then Rerate_Modal_Prem_Year2 is populated in first and second year staggered implementations. 
+
+Rerate Modal Prem Increase Year2 is Year 2 increase dollar amount and is formatted as currency with 2 decimals.
+If LETTER_TEMPLATE = '2019', then RRerate Modal Prem Increase Year2 is populated only for the policy which belongs to FORTIS UNION 
+product group, except for policies where Policy_Issue_State = 'California'. If LETTER_TEMPLATE = '2022',, then Rerate Modal Prem Increase Year2
+is populated for all policies.
+
+If Policy_Issue_State = 'Montana' AND Letter Template = '2010' or blank AND Staggered_Year = '1' then Rerate Modal Prem Increase Year2 
+is populated with the year 2 increase amount.
+
+If Policy_Issue_State = 'Virginia' and Staggered_Year = '1' or '2' then Rerate Modal Prem Increase Year2 is populated with the year 2 
+increase amount.
+
+If Policy_Issue_State = 'Vermont' and Letter_Template = '2016' and Product_Code 'LTC91', 'NHO91', 'LTC94', 'NHO94', 'LTC3', 'BSC3', 
+'GOL96', 'GOQ96', '2000-LTC', 'LTC2', 'BSC2' or 'LTC3R', then Rerate Modal Prem Increase Year2 is populated with year 2 increase amount 
+in first and second year staggered implementations.
+
+If Policy_Issue_State = 'Vermont' and Letter_Template = '2016' and Product_Code = '4062-INT', '4063-INT', '6062-INT', '6063-INT', 
+7062/7063', then Rerate Modal Prem Increase Year2 is populated with year 2 increase amount in first and second year staggered 
+implementations.
+If Policy_Issue_State = 'California' and Letter_Template = '2019' and Product_Code = 'LTC2' or 'CA06', then 
+Rerate Modal Prem Increase Year2 is populated with year 2 increase amount in first and second year staggered implementations.
+
+If Policy_Issue_State = 'California' and Letter_Template = '2016' and Product_Code = 'LTCQ', 'GOL96', 'GOQ96', 'SCQ96', 'SCN96', 
+'GON96', 'GOT96', 'GNF96' or 'GOF96', then Rerate Modal Prem Increase Year2 is populated with year 2 increase amount in first and 
+second year staggered implementations.
+
+If Policy_Issue_State = 'California' and Letter_Template = '2016' and Product_Code = 'LTC91', 'NHO91' or 'LTC94' and inflation is not
+a None/No Inflation/GPO/CPI, then Rerate Modal Prem Increase Year2 is populated with year 2 increase amount in first and second year 
+staggered implementations.
+
+If Policy_Issue_State = 'California' and Letter_Template = '2016' and Product_Code = 'LTC91', 'NHO91' or 'LTC94' and inflation is 
+None/No Inflation/GPO/CPI and Benefit Period is 'Lifetime', then Rerate Modal Prem Increase Year2 is populated with year 2 increase 
+amount in first and second year staggered implementations.
+
+If Policy Issue_State = 'California' and Letter_Template = '2016' and Product_Code = '4060-NHM', '4062-INT', '4063-INT', '4072-INT, 
+'4073- INT', '6062-INT', '6063-INT', '6072-INT' or '6073-INT', then Rerate Modal Prem Increase Year2 is populated with year 2 increase
+amount in first and second year staggered implementations. 
+
+If the above scenarios are not met, then Rerate Modal Prem Increase Year2 is blank.
+
+
+Year2_Policy_Anniv_Date is calculated as Nxt_Policy_Anniv_Date + 1 year and is formatted as mmmm/d/yyyy.
+If LETTER_TEMPLATE = '2019', then Year2_Policy_Anniv_Date is populated only for the policy which belongs to FORTIS UNION 
+product group, except for policies where Policy_Issue_State = 'California'. If LETTER_TEMPLATE = '2022',, then Year2_Policy_Anniv_Date
+is populated for all policies.
+
+If Policy_Issue_State = 'Montana' AND Letter_Template = '2010' or blank AND Staggered_Year = '1', then 
+Year2_Policy_Anniv_Date is populated with [Nxt_Policy_Anniv_Date] + 1 year.
+
+If Policy_Issue_State = 'Virginia' and Staggered_Year = '1', then Year2_Policy_Anniv_Date is populated with [Nxt_Policy_Anniv_Date] +1 
+year.
+If Policy_Issue_State = 'Virginia' and Staggered_Year = '2', then Year2_Policy_Anniv_Date is populated with [Nxt_Policy_Anniv_Date].
+
+If Policy_Issue_State = 'Vermont' and Letter_Template = '2016' and Product_Code = 'LTC91', 'NHO91', 'LTC94', 'NHO94', 'LTC3', 'BSC3', 
+'GOL96', 'GOQ96', '2000-LTC', 'LTC2', 'BSC2' or 'LTC3R' and if Staggered_Year = '1', then Year2_Policy_Anniv_Date is populated with 
+([Nxt_Policy_Anniv_Date] +1 year).
+But if Staggered_Year = '2', then Year2_Policy_Anniv_Date is populated with [Nxt_Policy_Anniv_Date].
+
+If Policy_Issue_State '2016' and Product_Code = '4062-INT', 4063-INT', '6062-INT', '6063-INT',' 7062/7063' and if Staggered_Year = '1', 
+then Year2_Policy_Anniv_Date is populated with ([Nxt_Policy_Anniv_Date] +1 year). 
+But if Staggered_Year = '2', then Year2_Policy_Anniv_Date is populated with [Nxt_Policy_Anniv_Date].
+
+If Policy_Issue_State = 'California' and Letter_Template = '2019' and Product_Code 'LTC2' or 'CA06' and if Staggered_Year = '1', then 
+Year2_Policy_Anniv_Date is populated with ([Nxt_Policy_Anniv_Date] +1 year).
+But if Staggered_Year = '2', then Year2_Policy_Anniv_Date is populated with [Nxt_Policy_Anniv_Date].
+
+If Policy_Issue_State = 'California' and Letter_Template = '2016' and Product_Code = 'LTCQ', 'GOL96', 'GOQ96', 'SCQ96', 'SCN96', 
+'GON96', 'GOT96', 'GNF96' or 'GOF96' and if Staggered_Year = '1', then Year2_Policy_Anniv_Date is populated with 
+([Nxt_Policy_Anniv_Date] +1 year).
+ But if Staggered_Year = '2', then Year2_Policy_Anniv_Date is populated with [Nxt_Policy_Anniv_Date].
+
+If Policy_Issue_State = 'California' and Letter_Template = '2016' and Product_Code = 'LTC91', 'NHO91' or 'LTC94' and inflation is not a
+None/No Inflation/GPO/CPI and if Staggered_Year = '1', then Year2_Policy_Anniv_Date is populated with ([Nxt_Policy_Anniv_Date] +1 year).
+But if Staggered_Year = '2' then populate with [Nxt_Policy_Anniv_Date].
+
+If Policy_Issue_State = 'California' and Letter_Template = '2016' and Product_Code 'LTC91', 'NHO91' or 'LTC94' and inflation is 
+None/No Inflation/GPO/CPI and Benefit Period is 'Lifetime' and if Staggered_Year = '1', then Year2_Policy_Anniv_Date is populated with 
+([Nxt_Policy_Anniv_Date] +1 year).
+But if Staggered_Year = '2', then Year2_Policy_Anniv_Date is populated with [Nxt_Policy_Anniv_Date].
+
+If Policy_Issue_State = 'California' and Letter_Template = '2016' and Product_Code = '4060-NHM', '4062-INT', '4063-INT', '4072-INT', 
+'4073-INT', '6062-INT', '6063-INT', '6072-INT' or '6073-INT' and if Staggered_Year = '1', then Year2_Policy_Anniv_Date is populated with
+([Nxt_Policy_Anniv_Date] +1 year). 
+But if Staggered_Year = '2', then Year2_Policy_Anniv_Date is populated with [Nxt_Policy_Anniv_Date].
+
+If the above scenarios are not met, then Year2_Policy_Anniv_Date is blank.
+
+
+Rerate_Modal_Prem_Year3 is Year 3 total premium and formatted as currency with 2 decimals.
+
+If Policy_Issue_State = 'Virginia' and Staggered_Year = '1' or '2' and the policyholder's rate increase will be staggered over 3 years,
+then Rerate_Modal_Prem_Year3 is populated with total premium after the Year 3 increase is implemented.
+
+If Policy_Issue_State = 'Vermont' and Letter_Template = '2016' and Product_Code = 'GOL96', 'GOQ96', '2000-LTC', 'LTC2', 'BSC2' or 
+'LTC3R", then Rerate_Modal_Prem_Year3 is populated with Year 3 rerated premium amount in first, second and third year staggered 
+implementations.
+
+If Policy_Issue_State = 'Vermont' and Letter_Template = '2016' and Product_Code = '4062-INT', '4063-INT', '6062-INT', '6063-INT', 
+'7062/7063', then Rerate_Modal_Prem_Year3 is populated with Year 3 rerated premium amount in first, second and third year staggered 
+implementations.
+
+If Policy_Issue_State = 'California and Letter_Template = '2019' and Product_Code = 'LTC2', 
+then Rerate_Modal_Prem_Year3 is populated with Year 3 rerated premium amount in first, second and third year staggered implementations.
+
+If Policy_Issue_State = 'California and Letter_Template = '2016' and Product Code 'GOL96', 'GOQ96', 'SCQ96', 'SCN96', 'GON96', 
+'GOT96",'GNF96' or 'GOF96', then Rerate_Modal_Prem_Year3 is populated with Year 3 rerated premium amount in first, second and third year staggered 
+implementations.
+
+If Policy_Issue_State = 'California' and Letter_Template = '2016' and Product_Code = 'LTCQ' and inflation is None/No Inflation/GPO/CPI, 
+then Rerate_Modal_Prem_Year3 is populated with Year 3 rerated premium amount in first, second and third year staggered implementations.
+
+If Policy_Issue_State = 'California' and Letter_Template = '2016' and Product Code = 'LTC91', 'NHO91' or 'LTC94' and inflation is not a 
+None/No Inflation/GPO/CPI, then Rerate_Modal_Prem_Year3 is populated with Year 3 rerated premium amount in first, second and third year staggered 
+implementations.
+
+If Policy_Issue_State = 'California' and Letter_Template = '2016' and Product_Code = 'LTC91', 'NHO91' or 'LTC94' and inflation is 
+None/No Inflation/GPO/CPI and Benefit Period is 'Lifetime', then Rerate_Modal_Prem_Year3 is populated with Year 3 rerated premium amount in first, 
+second älid third year staggered implementations.
+
+If Policy_Issue_State = 'California and Letter_Template = '2016' and Product Code='4060-NHM', '4062-INT', '4063-INT', '4072-INT', 
+'4073- INT, '6062-INT', '6063-INT', '6072-INT' or '6073-INT', then Rerate_Modal_Prem_Year3 is populated with Year 3 rerated premium amount in first, 
+second and third year staggered implementations.It is else blank.
+
+
+Rerate Modal Prem_Increase_Year3 is Year 3 increase dollar amount and is formatted as currency with 2 decimals.
+
+If Policy_Issue_State = 'Virginia' and Staggered_Year = '1' or '2' and the policyholder's rate increase will be staggered over 3 years, 
+then Rerate Modal Prem_Increase is populated with the Year 3 increase amount.
+
+If Policy_Issue_State = 'Vermont' and Letter_Template = '2016' and Product_Code = 'GOL96', 'GOQ96', '2000-LTC', 'LTC2', 'BSC2 or 
+'LTC3R', then Rerate Modal Prem_Increase is populated with year 3 increase amount in first, second and third staggered implementations.
+
+If Policy_Issue_State = 'Vermont' and Letter_Template = '2016' and Product_Code = '4062-INT', '4063-INT', '6062-INT', '6063-INT', 
+'7062/7063' then Rerate Modal Prem_Increase is populated with year 3 increase amount in first, second and third year staggered 
+implementations.It is else blank.
+
+Year3_Policy_Anniv_Date is calculated as (Nxt_Policy_Anniv_Date + 2 year) and formatted as mmmm/d/yyyy.
+
+If Policy_Issue_State = 'Virginia' and Staggered_Year = '1' and the policyholder's rate increase will be staggered over 3 years, 
+then Year3_Policy_Anniv_Date is populated with [Nxt_Policy_Anniv_Date] + 2 years.
+If Policy_Issue_State = 'Virginia' and Staggered_Year = '2' then Year3_Policy_Anniv_Date is populated with 
+([Nxt_Policy_Anniv_Date] + 1 year).
+
+If Policy_Issue_State = 'Vermont' and Letter_Template = '2016' and Product_Code = 'GOL96', 'GOQ96', '2000-LTC', 'LTC2', 'BSC2' or 
+'LTC3R' and Staggered_Year = '1' then Year3_Policy_Anniv_Date is populated with ([Nxt_Policy_Anniv_Date] +2 years).
+If Policy_Issue_State = 'Vermont' and Letter_Template = '2016' and Product_Code = 'GOL96', 'GOQ96', '2000-LTC', 'LTC2', 'BSC2' or 
+'LTC3R' and Staggered_Year = '2' then Year3_Policy_Anniv_Date is populated with ([Nxt_Policy_Anniv_Date] +1 year).
+If Policy_Issue_State = 'Vermont' and Letter_Template = '2016' and Product_Code = 'GOL96', 'GOQ96', '2000-LTC', 'LTC2', 'BSC2' or 
+'LTC3R' and Staggered_Year = '3' then Year3_Policy_Anniv_Date is populated with Nxt_Policy_Anniv_Date.
+
+If Policy_Issue_State = 'Vermont' and Letter Template = '2016' and Product_Code = '4062-INT', '4063-INT', '6062-INT', '6063-INT', 
+'7062/7063' and Staggered_Year = '1' then Year3_Policy_Anniv_Date is populated with ([Nxt_Policy_Anniv_Date] +2 years).
+If Policy_Issue_State = 'Vermont' and Letter Template = '2016' and Product_Code = '4062-INT', '4063-INT', '6062-INT', '6063-INT', 
+'7062/7063' and Staggered_Year = '2' then Year3_Policy_Anniv_Date is populated with ([Nxt_Policy_Anniv_Date] +1 year).
+If Policy_Issue_State = 'Vermont' and Letter Template = '2016' and Product_Code = '4062-INT', '4063-INT', '6062-INT', '6063-INT', 
+'7062/7063' and Staggered_Year = '3' then Year3_Policy_Anniv_Date is populated with Nxt_Policy_Anniv_Date.
+
+If Policy_Issue_State = 'California and Letter_Template = '2019' and Product_Code 'LTC2' and Staggered_Year = '1' 
+then Year3_Policy_Anniv_Date is populated with ([Nxt_Policy_Anniv_Date] +2 years).
+If Policy_Issue_State = 'California and Letter_Template = '2019' and Product_Code 'LTC2' and  Staggered_Year = '2' then 
+Year3_Policy_Anniv_Date is populated with ([Nxt_Policy_Anniv_Date] +1 year).
+If Policy_Issue_State = 'California and Letter_Template = '2019' and Product_Code 'LTC2' and  Staggered_Year = '3' then 
+Year3_Policy_Anniv_Date is populated with Nxt_Policy_Anniv_Date.
+
+If Policy_Issue_State = 'California' and Letter_Template = '2016' and Product_Code = 'GOL96', 'GOQ96', 'SCQ96', 'SCN96', 'GON96', 
+'GOT96', 'GNF96' or 'GOF96' and Staggered_Year = '1' then Year3_Policy_Anniv_Date is populated with 
+([Nxt_Policy_Anniv_Date] +2 years).
+If Policy_Issue_State = 'California' and Letter_Template = '2016' and Product_Code = 'GOL96', 'GOQ96', 'SCQ96', 'SCN96', 'GON96', 
+'GOT96', 'GNF96' or 'GOF96' and Staggered_Year = '2' then Year3_Policy_Anniv_Date is populated with ([Nxt_Policy_Anniv_Date] +1 year).
+If Policy_Issue_State = 'California' and Letter_Template = '2016' and Product_Code = 'GOL96', 'GOQ96', 'SCQ96', 'SCN96', 'GON96', 
+'GOT96', 'GNF96' or 'GOF96' and Staggered_Year = '3' then Year3_Policy_Anniv_Date is populated with Nxt_Policy_Anniv_Date.
+
+If Policy_Issue_State = 'California' and Letter_Template = '2016' and Product_Code = 'LTCQ' and inflation is None/No Inflation/GPO/CPI 
+and Staggered_Year = '1' then Year3_Policy_Anniv_Date is populated with ([Nxt_Policy_Anniv_Date] +2 years).
+If Policy_Issue_State = 'California' and Letter_Template = '2016' and Product_Code = 'LTCQ' and inflation is None/No Inflation/GPO/CPI 
+and Staggered_Year = '2' then Year3_Policy_Anniv_Date is populated with ([Nxt_Policy_Anniv_Date] +1 year).
+If Policy_Issue_State = 'California' and Letter_Template = '2016' and Product_Code = 'LTCQ' and inflation is None/No Inflation/GPO/CPI 
+and Staggered_Year = '3' then Year3_Policy_Anniv_Date is populated with Nxt_Policy_Anniv_Date.
+
+If Policy_Issue_State = 'California' and Letter_Template = '2016' and Product_Code = 'LTC91', 'NHO91' or 'LTC94' and inflation is not 
+a None/No Inflation/GPO/CPI and Staggered_Year = '1' then Year3_Policy_Anniv_Date is populated with 
+([Nxt_Policy_Anniv_Date] +2 years).
+If Policy_Issue_State = 'California' and Letter_Template = '2016' and Product_Code = 'LTC91', 'NHO91' or 'LTC94' and inflation is not 
+a None/No Inflation/GPO/CPI and Staggered_Year = '2' then Year3_Policy_Anniv_Date is populated with ([Nxt_Policy_Anniv_Date] +1 year).
+If Policy_Issue_State = 'California' and Letter_Template = '2016' and Product_Code = 'LTC91', 'NHO91' or 'LTC94' and inflation is not 
+a None/No Inflation/GPO/CPI and Staggered_Year = '3' then Year3_Policy_Anniv_Date is populated with Nxt_Policy_Anniv_Date.
+
+If Policy_Issue_State = 'California' and Letter_Template = '2016' and Product_Code = 'LTC91', 'NHO91' or 'LTC94' and inflation is 
+None/No Inflation/GPO/CPI and Benefit Period is 'Lifetime' and Staggered_Year = '1' then Year3_Policy_Anniv_Date is populated with
+ ([Nxt_Policy_Anniv_Date] +2 years).
+If Policy_Issue_State = 'California' and Letter_Template = '2016' and Product_Code = 'LTC91', 'NHO91' or 'LTC94' and inflation is 
+None/No Inflation/GPO/CPI and Benefit Period is 'Lifetime' and Staggered_Year = '2' then Year3_Policy_Anniv_Date is populated with 
+([Nxt_Policy_Anniv_Date] +1 year).
+If Policy_Issue_State = 'California' and Letter_Template = '2016' and Product_Code = 'LTC91', 'NHO91' or 'LTC94' and inflation is 
+None/No Inflation/GPO/CPI and Benefit Period is 'Lifetime' and Staggered_Year = '3' then Year3_Policy_Anniv_Date is populated with 
+Nxt_Policy_Anniv_Date.
+
+If Policy_Issue_State = 'California and Letter_Template = '2016' and Product Code='4060-NHM', '4062-INT', '4063-INT', '4072-INT', 
+'4073- INT, '6062-INT', '6063-INT', '6072-INT' or '6073-INT' and Staggered_Year = '1' then Year3_Policy_Anniv_Date is populated with
+([Nxt_Policy_Anniv_Date] +2 years).
+If Policy_Issue_State = 'California and Letter_Template = '2016' and Product Code='4060-NHM', '4062-INT', '4063-INT', '4072-INT', 
+'4073- INT, '6062-INT', '6063-INT', '6072-INT' or '6073-INT' and Staggered_Year = '2' then Year3_Policy_Anniv_Date is populated with 
+([Nxt_Policy_Anniv_Date] +1 year).
+If Policy_Issue_State = 'California and Letter_Template = '2016' and Product Code='4060-NHM', '4062-INT', '4063-INT', '4072-INT', 
+'4073- INT, '6062-INT', '6063-INT', '6072-INT' or '6073-INT' and Staggered_Year = '3' then Year3_Policy_Anniv_Date is populated with
+Nxt_Policy_Anniv_Date.
+
+
+Next Anniversary_RLMB - currency with 2 decimals if applicable. Exclude decimals if .00. 
+Next Anniversary_RLMB is the Remaining Lifetime Benefit amount as of the next policy anniversary and will be illustrated for policies whose sub_letter_template is populated with 'SC' or 'SC2016' or 'SC2019'
+whenever possible.
+Next Anniversary_RLMB should be populated with non-numerical value of 'Unlimited' for policies with benefit period as 'Lifetime'.
+For policies with shared care benefit amount that has been transferred out(sent out) for active transfers should have Next Anniversary_RLMB populated.
+The policyholder's current RLMB will be used for policies with CPI COMP (ADD GIO) inflation as the CPI factor to project the RLMB at next anniversary is not available when the extract is created. 
+For policies with both 'Nursing Home' and 'Home Health Care' pools of benefits, the 'Nursing Home' pool amount for RLMB should be illustrated.I
+For policies with 91-94 plan codes (LTC91, LTC94, LNY91 and LNY94 product codes), Next Anniversary_RLMB will be populated with spaces for policies with inflations - SIMPLE, COMPOUND, SIMPLE NOT INFLATING and COMP NOT INFLATING.
+Next Anniversary_RLMB will be populated with spaces if 'Nursing Home' pool amount for RLMB is zero or negative.
+For policies with shared care benefit amount that has been transferred in(received) as part of deceased transfer or active transfer will have Next Anniversary_RLMB populated with spaces.
+For policies in 'Recovered' or 'Recovered ROB' claim status, Next Anniversary_RLMB should be populated with spaces.
+For policies in 'On Claim' claim status, Next Anniversary_RLMB should be populated with spaces if Benefits_Paid has a non-zero dollar amount.
+
+Rerate_RLMB_for_DMB is formatted as currency with 2 decimals if applicable. 
+Rerate_RLMB_for_DMB is GPO Personalized Option Remaining Lifetime Benefit Amount for daily/monthly benefit amount reduction and will be illustrated for policies whose sub_letter_template is populated with 'SC' or 'SC2016' or 'SC2019' whenever possible.
+Rerate_RLMB_for_DMB should be populated with spaces if PODA does not return a decrease in Daily/Monthly benefit option.
+Rerate_RLMB_for_DMB should be populated with spaces if Next_Anniversary_RLMB is populated with spaces.
+Rerate_RLMB_for_DMB should be populated with non-numerical value of 'Unlimited' for policies with benefit period as 'Lifetime'
+For policies with both 'Nursing Home' and 'Home Health Care' pools of benefits, the 'Nursing Home' pool amount for RLMB should be 
+illustrated in Rerate_RLMB_for_DMB.
+RERATE_RLMB_FOR_DMB should be populated as 'unlimited' when CURR_BENE_PERIOD is lifetime.
+RERATE_RLMB_FOR_DMB should be populated as 'unlimited WHEN NEXT_ANNIVERSARY_RLMB = Unlimited.
+RERATE_RLMB_FOR_DMB should be populated with spaces when NEXT_ANNIVERSARY_RLMB is blank.
+
+
+Rerate_RLMB_for_BP is formatted as currency with 2 decimals if applicable.  
+It is GPO-Personalized Option Remaining Lifetime Benefit Amount for Benefit period reduction and will be illustrated for policies 
+whose sub_letter_template is populated with 'SC' or 'SC2016'- or 'SC2019' whenever possible.
+It should be populated with spaces if PODA does not return a decrease in benefit period option.
+It should be populated with spaces if Next_Anniversary_RLMB is populated with spaces.
+For policies with both Nursing Home' and 'Home Health Care' pools of benefits, the 'Nursing Home' pool amount for RLMB should be 
+illustrated as Rerate_RLMB_for_BP. 
+It should never be populated with "Unlimited' as benefit period of 'Lifetime' is never applicable for PODA benefit period reduction 
+offer (PODA option 2).
+RERATE_RLMB_FOR_BP should be BLANK WHERE SUB_LETTER_TEMPLATE IS NULL.
+
+Rerate_RLMB_for_Combo is the Combo Personalized-Option Remaining Lifetime Benefit Amount and will be illustrated for policies whose 
+sub_letter_template is populated with 'SC' or 'SC2016 or 'SC2019'.
+It should be populated with spaces if PODA does not return a decrease in both the Daily/Monthly benefit and Benefit Period option.
+It should be populated with spaces if Next_Anniversary_RLMB is populated with spaces.
+It should never be populated with 'Unlimited' as benefit period of 'Lifetime' is never applicable for PODA-combo-offer- involving 
+benefit amount-and-benefit period reduction (PODA-option- 3).
+For policies with both 'Nursing Home' and 'Home Health Care' pools of benefits, the 'Nursing Home' pool amount for RLMB should be 
+illustrated as Rerate_RLMB_for_Combo .
+RERATE_RLMB_FOR_Combo should be populated with spaces when NEXT_ANNIVERSARY_RLMB is blank.
+RERATE_RLMB_FOR_COMBO CANNOT BE BLANK IF NEXT_ANNIVERSARY_RLMB IS NOT BLANK.
+
+Rerate_Shared_Cost_RLMB is the remaining Lifetime Benefit-Amount for-shared-cost-offered and will be illustrated for policies whose 
+sub_letter_template is populated with 'SC' or 'SC2016' or 'SC2019. It is formatted as currency with 2 decimals.
+It should be blank if illustration of shared_Cost_DMB is not feasible or applicable.
+It should be populated with spaces if Next_Anniversary_RLMB is populated with spaces.
+It should be populated with non-numerical value of "Unlimited" for policies with benefit period as 'Lifetime'.
+For policies with both 'Nursing Home' and 'Home Health Care' pools of benefits, the 'Nursing Home' pool amount for RLMB should be 
+illustrated as Rerate_Shared_Cost_RLMB.
+RERATE_SHARED_COST_RLMB should be populated blank WHERE FINAL_SHARED_COST_FACTOR IS blank.
+RERATE_SHARED_COST_RLMB should be populated blank when NEXT_ANNIVERSARY_RLMB is blank.
+
+SHARED COST PRICING FACTOR is populated with 1 minus Shared Cost Factor provided in the 2022 rerate approval pricing rate sheet. 
 It is formatted as a number formatted to 3 decimal places. If the pricing factor in 99, it is populated as 99. If shared cost is 
 not an option, it is blank.
 
@@ -227,7 +817,15 @@ rounded to the nearest cent. If there was shared cost election in prior rerates,
 Shared Cost HHC DMB amount by applying the CUMULATIVE SHARED_COST_FACTOR to the policyholders next policy anniversary DMB excluding the 
 prior (2016 or 2019 rerate) shared cost factor, for each Impacted benefit sequence, and then the results are summed together and finally 
 rounded to the nearest cent. In this condition, Shared Cost HHC DMB amount will be extracted from LifePRO API functionality when PODA 
-processing is feasible for the concerned policy. It is blank if Shared Cost option is not applicable. 
+processing is feasible for the concerned policy. It is blank if Shared Cost option is not applicable.
+SHARED_COST_HHC_DMB should be populated if SharedCost NH DMB is populated for Dual pool policies.
+
+Rerate_HHC_DMB is populated with the policyholder's HHC DMB after applying the PODA DMB reduction to offset the rate increase till 
+the policyholder has not elected the shared cost landing spot in a previous offering. It is rounded to the nearest cents for all 
+the policyholders who previously elected the Shared Cost Landing Spot. It is blank if HHC DMB is not applicable. It is also blank 
+if DMB reduction is not applicable. It should not be blank if PODA Options 1 is present in extract. This means Rerate_HHC_DMB 
+should populate if Rerate_Daily_Monthly_Bene and Rerate_Daily_Monthly_Bene_Prem is populated.
+RERATE_HHC_DMB should populate if PODA Option 1 is present in the extract for Dual pool policies.
 
 PRIOR_SHARED_COST_FACTOR is populated with the John Hancock Shared cost factor from prior rerate (2016 or 2019 rerate) if the policy 
 elected shared cost once in prior rerate.It is populated with the cumulative John Hancock shared cost factor if the policy elected 
@@ -254,34 +852,321 @@ SHARED COST FACTOR for a policy that elected shared cost in prior (2016 or 2019)
 place.It will be populated with blank if there was no prior (2016 ог 2019) rerate shared cost election. It will be populated with blank 
 if CUMULATIVE_SHARED_COST_FACTOR is blank. It will be blank if Shared Cost option is not applicable.
 
-POLICY BUY OUT ELIG: 
-Set to 'Eligible to Exercise' if the policy is present in the buyout ratesheet provided for the corresponding state product group and 
-the applicable rerate implementation is eligible for buyout.
-Set to 'Eligible to Exercise' for staggered year=1 if the rerate Implementation is staggered and if the policy is present in the buyout 
-ratesheet provided for the corresponding state product group and the applicable rerate Implementation is eligible for buyout.
-Set to 'Not Eligible to Exercise' for staggered year=2 or more if the rerate implementation is staggered and if the policy is present 
-in the buyout ratesheet provided for the corresponding state product group and the applicable rerate Implementation is eligible for buyout.
-Set to 'Not Eligible to Exercise' if the policy is not present In the buyout ratesheet provided for the corresponding state product 
-group, but the applicable rerate Implementation is eligible for buyout. 
-Set to 'N/A' for all rerate implementations which are not applicable for buyout.
+Sub_Letter_Template is populated with different values as below:
+It is populated with 'SC' for all Fortis 2016RR policies.
+It is populated with 'SC' for all Retail policies having a supplemental implementation of 2016RR.
+It is populated with 'SC' for retail policies having a 2016RR implementation with either shared cost or ECNFO(Paid-up) or both.
+It is populated with 'SC' for retail policies having a 2016RR implementation with release memo stating 'new options version' for 
+'Special Communications' in summary tab(irrespective of 'new options version' being prefixed with 'Yes' or 'No').
+It is populated with 'SC' for any Retail 2016RR policy where the Rerate State Approval Release Memo of the applicable 2016RR 
+implementation specifies the Shared Cost Communication package is to be used. For example: If for a PSC, 2016 supplemental rerate was 
+approved with shared cost communication package, but the initial 2016 rerate was not, then the sub_letter_template will be populated with 'SC' for
+2016 supplemental rerate implementation and sub_letter_template will be set to blank for initial 2016 rerate implementation. 
+It is populated with 'SC' for any 2019RR implementation.
+It is populated with 'SC2016' for 2016/2019 rerate implementation of OR products.
+It is populated with 'SC2016' for 2016/2019 rerate implementation of IL products approved as part of Round 64.
+It is populated with 'SC2019' for 2013 rerate implementation of fortis products in RI state approved as part of Round 69.
+It is populated with 'SC2019' for 2016 rerate implementation of fortis union products in FL state approved as part of Round 72.
+It is populated with 'SC' for 2016 rerate implementation of CAPQ product in CA state approved as part of Round 73.
+It is populated with 'SC2016' for 2019 rerate implementation of CAP2 and CAP6 products in CA approved as part of Round 73.
+It is populated with 'SC' for 2016 rerate implementation of CA state for products LTC91, NHO91, LTC94, GOL96, GOQ96, SCQ96, SCN96, 
+GON96, GOT96, GNF96, GOF96, LTCQ approved as part of Round 82.
+It is populated with 'SC2016' for 2016/2019 rerate implementation of LTC2 and CA06 products in CA approved as part of Round 81.
+It is populated with 'SC2016' for 2019 rerate implementation of products 6062-INT, 6063-INT and 7062/7063 in OR state approved as part 
+of Round 79.
+Sub_Letter_Template is blank if the above conditions are not met.
 
-POLICY BUY OUT AMT:
-Populate with the buyout amount provided in the ratesheet for the applicable policy of the concerned state product group if the 
-POLICY BUY OUT ELIG is set to "Eligible to Exercise' and NXT_POLICY ANNIV DATE lies between the effective date and end date of the 
-offer provided in the buyout ratesheet.
-If the POLICY_BUY_OUT_ELIG is set to 'Eligible to Exercise' and NXT_POLICY_ANNIV_DATE doesnot lie between the effective date and end 
-date of the offer provided in the buyout ratesheet, do not populate the buyout amount.
-If the buyout amount is space, zero or 'TBD' in buyout ratesheet with POLICY_BUY_OUT_ELIG set to 'Eligible to Exercise', do not populate
-the buyout amount.
-If 'POLICY_BUY_OUT_ELIG' is set to 'Not Eligible to Exercise' or 'N/A', do not populate the buyout amount.
+
+POLICY BUY OUT ELIG is 'Eligible to Exercise' if the policy is present in the buyout ratesheet provided for the corresponding state 
+product group and the applicable rerate implementation is eligible for buyout.
+POLICY BUY OUT ELIG is 'Eligible to Exercise' for staggered year=1 if the rerate Implementation is staggered and if the policy is 
+present in the buyout ratesheet provided for the corresponding state product group and the applicable rerate Implementation is eligible 
+for buyout.
+POLICY BUY OUT ELIG is 'Not Eligible to Exercise' for staggered year=2 or more if the rerate implementation is staggered and if the 
+policy is present in the buyout ratesheet provided for the corresponding state product group and the applicable rerate Implementation 
+is eligible for buyout.
+POLICY BUY OUT ELIG is 'Not Eligible to Exercise' if the policy is not present In the buyout ratesheet provided for the corresponding 
+state product group, but the applicable rerate Implementation is eligible for buyout. 
+POLICY BUY OUT ELIG is 'N/A' for all rerate implementations which are not applicable for buyout.
+
+POLICY BUY OUT AMT is populated with the buyout amount provided in the ratesheet for the applicable policy of the concerned state 
+product group if the POLICY BUY OUT ELIG is 'Eligible to Exercise' and NXT_POLICY ANNIV DATE lies between the effective date and end 
+date of the offer provided in the buyout ratesheet.
+If the POLICY_BUY_OUT_ELIG is 'Eligible to Exercise' and NXT_POLICY_ANNIV_DATE doesnot lie between the effective date and end 
+date of the offer provided in the buyout ratesheet then, POLICY BUY OUT AMT is blank.
+If the buyout amount is space, zero or 'TBD' in buyout ratesheet with POLICY_BUY_OUT_ELIG populated as 'Eligible to Exercise' then, 
+POLICY BUY OUT AMT is blank.
+If 'POLICY_BUY_OUT_ELIG' is 'Not Eligible to Exercise' or 'N/A'then, POLICY BUY OUT AMT is blank.
 
 For a policy on schedule without any rerate deferrals due to reasons including claim status, the NXT_POLICY_ANNIV_DATE of the eligible
 rerate implementation with the offer buyout will always lie between the effective date and end date of the offer provided in the buyout 
 ratesheet. For a policy which is a recovered claimant or whose rerate is deferred, the NXT_POLICY_ANNIV_DATE of the eligible rerate 
 implementation with the offer buyout may or may not lie between the effective date and end date of the offer provided in the buyout 
-ratesheet based on if revised buyout rates are received from actuaries.Post Monthly Extract generation (on 20th of every month) a 
-list of the policies from the extract generated which are not 'On Claim' or 'SWOP' and have POLICY_BUY_OUT_ELIG set to 
-'Eligible to Exercise' but POLICY_BUY_OUT_AMT set to blanks will be sent to actuarial team. Buyout ratesheets will be due on round 
+ratesheet based on if revised buyout rates are received from actuaries. Post Monthly Extract generation (on 20th of every month) a 
+list of the policies from the extract generated which are not 'On Claim' or 'SWOP' and have POLICY_BUY_OUT_ELIG as
+'Eligible to Exercise' but POLICY_BUY_OUT_AMT is blank will be sent to actuarial team. Buyout ratesheets will be due on round 
 locking, any updates to the existing ratesheets will also be due along with round locking with a communication from actuarial team 
 mentioning the state product group and rerate implementations which have been updated for the policies that needed update.
+
+Rerate_Daily_Monthly_Bene is GPO Personalized Option Daily/Monthly Benefit Amount. It is formatted as currency with 2 decimals. 
+It should not be populated as '.00' in the end. It should be blank if PODA does not return a decrease in Daily/Monthly benefit option.  It should be blank if 
+the policy is in 'Recovered' or 'Recovered ROB claim status (for policies with claims paid). PODA Daily/Monthly Benefit option as well 
+as other PODA options should not be illustrated in the first year of a staggered implementation which is either approved with inflation 
+landing spot or shared cost landing spot or both. RERATE_DAILY_MONTHLY_BENE cant be greater than NXT_POL_ANN_DAILY_MONTHLY_BENE.
+
+Rerate_Daily_Monthly_Bene_Prem is GPO Personalized Option Daily/Monthly Premium Amount formatted as currency with 2 decimals. 
+It should not be populated as '.00' in the end. It should be blank should be blank if PODA does not return a decrease in Daily/Monthly
+benefit option.It should be blank if the policy is in 'Recovered' or 'Recovered ROB claim status (for policies with claims paid). 
+
+Rerate Bene Period is GPO Personalized Option Benefit Period.It should be populated in a sentence format.
+It should be blank if PODA does not return a decrease in Benefit Period option. For family care policies in Product groups CCI&EII,
+CCII07, CCIIE and CCII10, if Rerate Bene Period has the value of '2 years' or '3 years' returned from PODA, 
+it should be populated with blanks.
+
+Rerate Benefit_Period_Prem is GPO Personalized Option Benefit Period Premium Amount formatted as currency with 2 decimals. 
+It should not be populated as '.00' in the end. It should be blank if PODA does not return a decrease in Benefit Period option.
+For family care policies in Product groups CCII&ECII, CC107, CCIE and CCII10, Rerate Benefit_Period_Prem should not be populated if the 
+Rerate Bene_Period field has blanks.
+
+NFO_Elig is populated either with 'Eligible to Exercise', 'Not Eligible to Exercise' or 'N/A'.
+When NFO Benefit is elected and policy has been in effect for at least 3 years as of the rerate effective date, then NFO_Elig is 
+'Eligible to Exercise'. 
+If issue state equals Maryland and product code equals either LTC2, LTC3, BSC2, BSC3, GOQ96 or CLQ96, then the policy 
+must be in effect for at least 5 years as of the rerate effective date, then NFO_Elig is 'Eligible to Exercise'.
+When NFO Benefit is elected and policy has a Limited Pay Option and has been in effect for at least 1 year as of the rerate effective 
+date for the following products (BSC3, BS3F, BS3P, LTC3, LT3F, LT3P, LTC3R, LT3FR, LT3PR) the NFO_Elig is 'Eligible to Exercise'. 
+When NFO field is blank (not elected), then NFO_Elig is 'N/A'. 
+If none of the above conditions exist, then NFO Elig field will be 'Not Eligible to Exercise'. 
+NFO_Elig is populated as 'Not Eligible to Exercise' if either the ECNFO_Elig or LPCNFO_Elig fields are 'Eligible to Exercise'.
+
+Election_Deadline is policyholder anniversary minus 30 days. It's format is in mmmm/d/yyyy.
+
+Prev_Capped_Phase is populated with the CAPPED_PHASE value from the extract history table 
+for the policyholder's previous rate increase record.
+If the policy is Cap_Stag policy and STAGGERED_YEAR>1 and the LETTER_TEMPLATE on the policyholder's previous extract record on the 
+extract history table  = '2013', Prev_Capped_Phase is  populated with the PREVIOUS_CAPPED_PHASE value from the policyholder's previous 
+extract record on the extract history table.
+
+Prev_Capped is populated with the CAPPED value from the extract history table for the policyholder's previous rerate extract 
+record.
+If the policy is Cap_Stag and STAGGERED_YEAR >1 and the LETTER_TEMPLATE on the policyholder's previous extract record on the 
+extract history table = '2013', Prev_Capped is populated with the PREV CAPPED value from the policyholder's previous extract record on the 
+extract history table.
+
+Stag 2010 Remaining is populated with either 'Y', 'N','Y-prod' or blank.
+If the first phase of the policyholder's 2013 rate increase is staggered and the policyholder took the 2010 Landing Spot, then
+Stag 2010 Remaining is 'N'.
+If the first phase of the policyholder's 2013 rate increase is staggered and the PSC's 2010 rate increase was fully implemented prior 
+to the start of the 2013 rate increase implementation, then Stag 2010 Remaining is 'N'.
+For all other 2013 first phase staggered policies, IT must check the 2010 staggered rate sheet (the subsequent year beyond what was 
+implemented) and determine if there is any remaining 2010 rate increase to be implemented for the policyholder.
+If a rate factor > 1.00 is found on the 2010 rate sheet for the policyholder, and this is the first phase of the 2013 rate increase 
+implementation, Stag 2010 Remaining is 'Y'.
+If all rate factors equal 1.00 on the 2010 rate sheet for the policyholder, and this is the first phase of the 2013 rate increase 
+implementation, Stag 2010 Remaining is 'N',
+If Letter_Template = '2013' and Stag_2610_Remaining is 'Y' or 'Y-prod' on the policyholder's previous extract record on the 
+extract history table, set the Stag_2010_Remaining field to 'Y-prod' on the current extract record.
+Else Stag 2010 Remaining is blank.
+
+CNFO_Rounded_PCT is populated with the Rerate_Inc_Pct rounded to the nearest whole percent to be used in determining CNFO eligibility.
+It should be blank for year 2+ staggered policies except for policies where Policy_Issue_State = 'Connecticut'. For Connecticut 
+partnership policies CNFO_Rounded_PCT would be the same for staggered year 2+ policies as was populated for year 1.
+
+CNFO_Base_Rate_Inc_PCT is populated with the rate increase percent that applies to the base layer only. It is used in comparison
+to the weighted average increase percent. It is blank for policies where staggered_year is greater than 2. For New Hampshire issued
+policies, the attained age caps must be taken into consideration when calculating the CNFO Base Rate Inc Pct value.
+
+CNFO_Prior_Rate_Inc_PCT is the total rate increase percent incurred prior to the 2010 rerate. It is blank for policies where staggered_year 
+is greater than 2. The CNFO_Rounded_PCT stored on the EHT from the policyholder's last increase record must be carried forward to the 
+current Mailing Extract record as the CNFO_Prior_Rate_Inc_PCT and should be used when calculating the new CNFO trigger inclusive of the
+current rate increase.
+
+CNFO_Weighted_Ave_Inc_PCT is the weighted average increase percent of all benefit sequences compounded through all years of a 
+spread increase. It is blank for policies where staggered_year is greater than 2. For New Hampshire issued
+policies, the attained age caps must be taken into consideration when calculating the CNFO_Weighted_Ave_Inc_PCT value.
+
+UW_ Class is the underwriting class.
+
+Prior_Remaining_%  is populated with the Remaining_% value from EHT for the policyholder's previous rate increase record if 
+Letter_Template is '2013' and Staggered_Year is not blank. It is else blank. 
+
+Remaining_% is populated with the weighted average rate increase percent remaining to be implemented for a staggered implementation.
+The calculated percentage should not include the percent being implemented in the current wave. It is formatted as a percent with 2 decimal
+places. It should be populated if staggered_year is greater than equal to 1. When the staggered implemetation is final, then 
+Remaining_% is populated as '0%'. If staggered_year is blank, then Remaining_% is blank.
+
+Prior Staggered Year field is populated with the Staggered_Year value from the EHT for the policyholder's previous rate 
+increase record if Letter Template is '2013' and Staggered_Year is not blank. It is else blank.
+
+SharedCare_LMB is populated with the deceased's pool of money that is transferred to the linked surviving policyholder and is formatted 
+as currency with decimals. PODA options must be blank when SharedCare_LMB is populated with a transferred benefit amount. PODA DMB 
+reduction option will be illustrated effective Round 54 Wave I/ March 2020 anniversary extract when SharedCare_LMB is populated with a 
+transferred benefit amount.
+
+LPCNFO_RATIO is the number of years (including partial years) premiums have been paid less 1 divided by the
+number of years the premiums are payable less 1. It is rounded to the nearest whole percent. This criteria is specific to Florida 
+issued limited pay policies.
+
+Equal_Stag is populated if the policyholder's rate increase is staggered and is being implemented in equal installments over a 
+fixed number of years as outlined in the Release Memo. Please note, that policies with multiple layers may not always result in equal
+installments.
+If Policy Issue State is 'Nevada' and Product_Code is 'ARG96' and Letter Template '2010' and Staggered_Year is not 'blank', then 
+Equal_Stag is '3'.
+If Policy Issue_State is 'Iowa' and Product Code is 'ARF96' or 'ARG96' and Letter_Template '2010' and Staggered_Year is not blank, 
+Equal_Stag is '3'.
+If Policy_Issue_State is 'Montana' and Product_Code is 'LTC91' or 'LTC94' or 'GOQ96' or 'GOF96' and Letter_Template is '2013' and 
+Staggered Year is not blank, Equal_Stag is '2'.
+If Policy Policy_Issue Issue State is 'Nevada' and Letter_Template is '2013' and Staggered_Year is not blank, then the number of 
+years each individual layer of coverage is staggered for a particular policyholder based upon the actuarial rate sheets is determined, 
+tand Equal_Stag's value is poulated with the maximum number returned for the policyholder.
+If Policy_Issue_State = 'North Carolina' and Company_Code = '01' or '02' and Letter_Template '2013' and Staggered_Year is not blank,
+then Equal_Stag is '3'.
+If Policy_Issue_State is 'Arkansas' and Company_Code = '06' and Letter Template is '2013' and Staggered Year is not blank, 
+then Equal_Stag is '3' .
+If Policy_Issue_State is 'Nebraska' and Company_Code = '01' or '02' and Letter_Template = '2013' and Staggered Year is not blank, 
+then Equal_Stag is '3'.
+If Policy_Issue_State = 'Tennessee' and Company_Code = '01' or '02' and Letter_Template = '2013' and Staggered_Year is not blank, 
+then the number of years each individual layer of coverage is staggered for a particular policyholder based upon the actuarial rate sheets is determined, 
+tand Equal_Stag's value is poulated with the maximum number returned for the policyholder.
+If Product Code = 'CAPQ', 'CAP2' or 'CAP6' and Letter_Template is '2013' and Staggered_Year is not blank, then Equal_Stag is '3'.
+If Policy_Issue_State is 'Massachusetts' and Letter_Template = '2013' and Staggered_Year is not blank, then the number of years each 
+individual layer of coverage is staggered for a particular policyholder based upon the actuarial rate sheets is determined, 
+tand Equal_Stag's value is poulated with the maximum number returned for the policyholder.
+If Policy_Issue_State = 'Connecticut' and Letter_Template = '2016' and Product Code= 'LTC91', 'NHO91', 'LTC94', 'NH094', 'GOQ96', 
+'LTCCT', 'LTC2', 'LTC3R ,'RCT92', 'RWJ92', 'RWJ96', 'RWJCT', 'LTCP', 'LT3PR' ,'4062-INT', '4063-INT', '6062-INT', '6063-INT' or 
+'7062/7063" then Equal_Stag is '3'.
+If Policy_Issue_State = 'Vermont' and Letter_Template = '2016" and Product_Code = 'LTC91', 'NHO91', 'LTC94', 'NHO94', 'LTC3" or 'BSC3',
+then Equal_Stag is '2' .
+If Policy_Issue_State is 'Vermont' and Letter_Template is '2016' and Product Code is in ('GOL96', 'GOQ96', '2000-LTC', 'LTC2', 'BSC2' 
+or 'LTC3R'), then Equal_Stag is '3'.
+If Policy_Issue_State is 'Vermont' and Letter_Template is '2016' and Product_Code is in ('4062-INT', '4063-INT', '6062-INT', '6063-INT'
+or 7062/7063'), then Equal_Stag is '3'.
+If Policy_Issue_State is 'Maine' and Letter_Template is '2019' and Staggered_Year is not blank and Product_Code is in ('LTC3', 'BSC3', 
+'LTC3R' or 'LTC6'), then Equal_Stag is '3'.
+If Policy_issue_state = 'Colorado' and letter_template = '2016' and staggered_year is not 'blank' and Product_code = 'GOL96', 'GOQ96', 
+'GOF96', '2000-LTC', 'CLA96', 'CLQ96', 'LTC2' or 'BSC2', then Equal_Stag is '3'.
+ If Policy_issue_state = 'Colorado' and letter_template = '2016' and staggered_year is not 'blank' and Product_code is in ('LTC3', 
+ 'BSC3' or 'LTC3R'), then Equal_Stag is '3'.
+If Policy_issue_state = 'Florida' and letter_template = '2019' and staggered_year is not 'blank' and Product_code='LTC91', 'LTC94",
+'GOQ96', 'CLQ96', '2000-LTC', 'LTC2', 'BSC2', 'LTFL2', 'LTFL2R','BSFL2', 'BSFL2R' or 'LTC6', then Equal_Stag is '3'.
+If Policy_issue_state = 'Florida' and letter template is '2019' and staggered_year is not 'blank' and Product_code = 'L3ER', 
+then Equal_Stag is '3'.
+If Policy_issue_state = 'Florida' and letter_template = '2016' and staggered_year is not 'blank' and Product_code = '6062-INT', 
+'6063-INT', '6072-INT', '6073-INT' or '7062/7063", then Equal_Stag is '3'.
+If Product_Code = 'CAP2' or 'CAP6' and Letter_Template - '2019' and Staggered_Year is not blank, then Equal_Stag is '3'.
+If Product_Code = 'CAPQ' and Letter_Template = '2016' and Staggered Year is not blank, then Equal_Stag is '3'.
+If Policy_issue_state = 'Minnesota' and Product_Code is 'LTC2 or 'BSC2' and Letter_Template is '2019' and Staggered_Year is not blank, 
+then Equal_Stag is '2'.
+If Policy_issue_state = 'Idaho' and Product_Code is 'LTC3E' or 'L3ER' or 'LTC6', and Letter_Template = '2019' and Staggered_Year
+is not blank, then Equal_Stag is '3'.
+If Policy_issue_State = 'Ohio' and Product_code ='LTC2' or 'BSC2' and Letter_Template = '2022' and Staggered_Year is not blank and 
+Issue_date>= 02/08/2003(MM/DD/YYYY) and Curr_Inflation_Mode like '%Simple%' or '%Compound%' (all variations of Simple and Compound), 
+then Equal_Stag is '3'.
+If Policy_issue_State = 'Ohio' and Product_code ='LTC3' or 'BSC3' or 'LTC3E' or 'LT3FE' and Letter_Template = '2022' and Staggered_Year
+is not blank and Curr_Inflation_Mode like '%Simple% or '%Compound%' (all variations of Simple and Compound), then Equal_Stag is '3'.
+If Policy_issue_state = 'Massachusetts' and Product Code - 'LTC91', 'LTC94', 'GOQ96', 'CLQ96', 'GOF96', '2000-LTC', 'LTC2' or 'BSC2', 
+and Letter_Template is '2019' and Staggered_Year is not blank, then Equal_Stag is '4'.
+If Policy_issue_state = 'Massachusetts' and Product_Code = 'LTC3' or 'BSC3', and Letter_Template = '2019' and Staggered_Year 
+is not blank, then Equal_Stag is '3'.
+If Policy_issue_state = 'Massachusetts' and Product_Code = 'LTC3E' or 'LTC6', and Letter_Template = '2019' and Staggered_Year 
+is not blank, then Equal_Stag is '3'.
+If Policy_issue_state = 'Ohio' and Product_Code = '7060' or '7062/7063', and Letter_Template = '2019' and Staggered_Year is not blank,
+then Equal_Stag is '3'.
+If Policy_issue_state = 'California' and Product Code = '4060- ΝΗΜ', '4062-INT', '4063-INT', '4072-INT', '4073-INT', '6062-INT', 
+'6063- INT', '6072-INT' or '6073-INT', and Letter_Template = '2016' and Staggered_Year is not blank, then Equal_Stag is '3'.
+If Policy issue State is 'Maryland' and Product code ='LTC3' or 'BSC3' or 'LTC3R' and Letter Template = '2022' and Staggered Year 
+is not blank and Curr Inflation Mode is a variation of Simple and Compound (excluding CPI Compound and its variations), then set to 
+then Equal_Stag is '2'.
+
+Partial_RR_Inflation_Mode is populated with the partial landing spot inflation reduction percentage. As Landing Spots are a 
+one-time offer, Partial_RR_Inflation_Mode should only be populated in the first year of the rate increase implementation.
+
+Partial_RR_Modal_Prem_Year1 is populated with the policyholder's year 1 partial landing spot premium amount. 
+As Landing Spots are a one-time offer, Partial_RR_Modal_Prem_Year1 should only be populated in the first year of the rate increase 
+implementation and must be populated for both staggered and non-staggered policyholders.
+
+Partial_RR_Modal_Prem is populated with the policyholder's partial landing spot ultimate premium amount.
+As Landing Spots are a one-time offer Partial_RR_Modal_Prem should only be populated in the first year of the rate increase 
+implementation.
+
+Partial_Rate_Inc_Pct is populated with the policyholder's partial landing spot's inflation reduction percentage.
+As Landing Spots are a one-time offer, Partial_Rate_Inc_Pct should only be populated in the first year of the rate increase 
+implementation.
+
+Prior_WI_Scenario is used to identify Wisconsin policyholder who change scenarios in the midst of a staggered rate increase 
+implementation and should be populated as follows:
+If Staggered_Year >='2' and the WI_Scenario field value on the policyholder's current extract record differs from the WI_Scenario field
+value on the policyholder's previous extract record, the Prior_WI_Scenario is populated with the previous extract 
+record's WI_Scenario field value.
+Prior_WI_Scenario will be used to support recovered claimants who switch scenarios upon recovery as well as those switching scenarios 
+at the start of a new rate increase implementation. For example, policyholder's switching from scenario 'la' to 'lc' as part of the R35 
+2013 rate increase implementation.
+
+EP_Increase_Option is poupulated with either 'Y' or 'N'. It is to indicate if the policyholder has the option to increase their elimination period. 
+If the policyholder's Curr_Elim_Period is less than the PSC's maximum Elimination Period then EP_Increase_Option is 'Y' else 'N'.
+
+DRA_Age is the true age of the policyholder for DRA partnerships. 
+It is populated with the True Age of the policyholder's base layer's latest MUIN record.
+Age rate-up should not be taken into consideration. The True Age of the active Primary Insured should be captured for Family Care
+policies. DRA_Age should be populated only when the Partnership extract field value = 'DRA' for the policyholder.
+
+ECNFO_Elig is populated with either 'Eligible to Exercise', 'Not Eligible to Exercise' or 'N/A'. It is populated as per below scenarios:
+
+If policy issue state equals Florida and rerate implementation year equals 2016 and product code is either of LTC91, LTC94, GOQ96, 
+SC2Q01, SCQ96, CLQ96, 2000-LTC, LTC2, BSC2, LTFL2, LTFL2R, BSFL2, BSFL2R, L3ER, LTC6, B10, C10, B12 and if if the policy meets the 
+NAIC CNFO trigger requirements and they are not eligible for LPCNFO with a higher policy limit, then 
+ECNFO_Elig is 'Eligible to Exercise'.
+
+If policy issue state equals Florida and rerate implementation year equals 2016 and product code is either of LTC91, LTC94, GOQ96, SC2Q01, 
+SCQ96, CLQ96, 2000-LTC, LTC2, BSC2, LTFL2, LTFL2R, BSFL2, BSFL2R, L3ER, LTC6, B10, C10, B12, and if the policy does not meet the 
+trigger requirements or if they are eligible for LPCNFO with a higher policy limit, then ECNFO_Elig is 'Not Eligible to Exercise'.
+
+If policy issue state does not equal Florida and if the Paid-up option is approved for the product, state and rerate implementation year
+and if the policyholder is not eligible for LPCNFO with a higher policy limit, , then ECNFO_Elig is 'Eligible to Exercise'.
+
+If policy issue state does not equal Florida and if the policyholder is eligible for LPCNFO with a higher policy limit, then 
+ECNFO_Elig is 'Not Eligible to Exercise'.
+
+If policy issue state equals Florida and rerate implementation year equals 2019 and if the Paid-up option 
+is approved for the product, state and rerate implementation and if the policyholder is not eligible for LPCNFO with a higher policy 
+limit, then ECNFO_Elig is 'Eligible to Exercise'.
+
+If policy issue state equals Florida and rerate implementation year equals 2019, and if the policyholder is eligible for LPCNFO with a 
+higher policy limit, then ECNFO_Elig is 'Not Eligible to Exercise'.
+
+If policy issue state equals Florida and rerate implementation year equals 2016 and product code is either of 6062-INT, 6063-INT, 6072- INT,
+6073-INT, 7062/7063 and if the Paid-up option is approved for the product, state and rerate implementation and if the policyholder is 
+not eligible for LPCNFO with a higher policy limit, then , ECNFO_Elig is 'Eligible to Exercise'.
+
+If policy issue state equals Florida and rerate implementation year equals 2016 and product code is either of 6062-INT, 6063-INT, 
+6072-INT, 6073-INT, 7062/7063 and if the policyholder is eligible for LPCNFO with a higher policy limit, then 
+, ECNFO_Elig is 'Not Eligible to Exercise'.
+
+ECNFO_Elig is 'N/A' if ECNFO is not an option for the product, state and rate increase implementation year.
+
+ECNFO policy limit is equal to the greater of 150% of Paid Premiums minus Claims Paid OR 30 times the Daily Benefit/1 times the 
+Monthly Benefit. The ECNFO policy limit will be capped at the policies current RLMB amount. ECNFO policy limit should be set to blank 
+if ECNFO_Elig does not equal 'Eligible to Exercise'.
+
+
+LPCNFO_Elig is a field which is populated with either 'Eligible to Exercise', 'Not Eligible to Exercise' or 'N/A'. 
+LPCNFO_Elig is populated as 'Eligible to Exercise' if the policy's LPCNFO_Ratio is >=40% or if they are not eligible for ECNFO with a 
+higher policy limit. 
+LPCNFO_Elig is populated 'Not Eligible to Exercise' if the policy's LPCNFO_Ratio is <40% or if they are eligible for ECNFO with a 
+higher policy limit. 
+LPCNFO_Elig is populated 'N/A' if the LPCNFO Ratio is blank.
+
+LPCNFO_DMB is a field which is the product of the policyholder's current DMB (Daily or Monthly) as of the next policy anniversary date (rerate effective 
+date) and the LPCNFO Ratio. It is rounded to the nearest dollar.  In the situation where the inflation factor is not available to 
+calculate the DMB as of rerate effective date, the policies current DMB will be used when calulating the LPCNFO DMB amount. i.e. 
+CPI Compound inflation. LPCNFO_DMB should only be populated if the LPCNFO_Elig field is equal to 'Eligible to Exercise'.
+
+LPCNFO_Policy_Limit is the product of the policyholder's current RLMB as of the next policy anniversary date (rerate effective date) 
+and the LPCNFO Ratio. It is rounded to the nearest dollar. In the situation where the inflation factor is not available to calculate 
+the DMB as of rerate effective date, the policies current DMB will be used when calulating the LPCNFO Policy Limit amount i.e. CPI 
+Compound inflation. LPCNFO_Policy_Limit should only be populated if the LPCNFO_Elig field is equal to 'Eligible to Exercise'.
+
+
+
+
 
